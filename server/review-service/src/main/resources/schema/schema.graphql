@@ -1,0 +1,15 @@
+type Review {
+    id: ID!
+    customerId: ID!
+    businessId: ID!
+    rating: Int!
+    comment: String
+}
+
+type Query {
+    reviews: [Review]
+}
+
+type Mutation {
+    submitReview(customerId: ID!, businessId: ID!, rating: Int!, comment: String): Review
+}
