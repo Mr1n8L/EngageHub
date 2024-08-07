@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Project structure modification">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="To-do" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,6 +193,7 @@
       <workItem from="1722851420458" duration="2344000" />
       <workItem from="1723019382188" duration="331000" />
       <workItem from="1723019743914" duration="7000" />
+      <workItem from="1723042838853" duration="271000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure modification">
       <option name="closed" value="true" />
@@ -220,7 +219,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723019667132</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Project structure modification">
+      <option name="closed" value="true" />
+      <created>1723042875437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723042875437</updated>
+    </task>
+    <task id="LOCAL-00005" summary="To-do">
+      <option name="closed" value="true" />
+      <created>1723042979882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723042979882</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,8 +267,10 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/ha" />
+      <path value="$PROJECT_DIR$/server" />
     </ignored-roots>
     <MESSAGE value="Project structure modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project structure modification" />
+    <MESSAGE value="To-do" />
+    <option name="LAST_COMMIT_MESSAGE" value="To-do" />
   </component>
 </project>
