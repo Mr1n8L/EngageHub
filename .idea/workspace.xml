@@ -76,7 +76,6 @@
   &quot;keyToString&quot;: {
     &quot;Gradle.engagehub [clean build].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/mr1n8l/Documents/IdeaProjects/EngageHub&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -193,7 +192,7 @@
       <workItem from="1722851420458" duration="2344000" />
       <workItem from="1723019382188" duration="331000" />
       <workItem from="1723019743914" duration="7000" />
-      <workItem from="1723042838853" duration="271000" />
+      <workItem from="1723042838853" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure modification">
       <option name="closed" value="true" />
