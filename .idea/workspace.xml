@@ -59,12 +59,12 @@
     &quot;assignee&quot;: &quot;Mr1n8L&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://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@github.com/Mr1n8L/EngageHub",
-    "accountId": "1fa0af72-b7eb-41ea-bfcd-cea8c0a5ba2e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://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@github.com/Mr1n8L/EngageHub&quot;,
+    &quot;accountId&quot;: &quot;1fa0af72-b7eb-41ea-bfcd-cea8c0a5ba2e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -193,7 +193,8 @@
       <workItem from="1722849802301" duration="542000" />
       <workItem from="1722850725638" duration="245000" />
       <workItem from="1722851420458" duration="2344000" />
-      <workItem from="1723019382188" duration="170000" />
+      <workItem from="1723019382188" duration="331000" />
+      <workItem from="1723019743914" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure modification">
       <option name="closed" value="true" />
@@ -211,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722850154247</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Project structure modification">
+      <option name="closed" value="true" />
+      <created>1723019667132</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723019667132</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
