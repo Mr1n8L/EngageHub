@@ -42,6 +42,7 @@ EngageHub CRM follows a microservices architecture to ensure scalability, perfor
 
 ## Project Structure
 
+
 ```plaintext
 engagehub
 ├── README.md
