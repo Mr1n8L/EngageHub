@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="To-do">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +197,8 @@
       <workItem from="1723019743914" duration="7000" />
       <workItem from="1723042838853" duration="372000" />
       <workItem from="1723043235304" duration="462000" />
-      <workItem from="1723122284773" duration="52000" />
+      <workItem from="1723122284773" duration="143000" />
+      <workItem from="1723222319696" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure modification">
       <option name="closed" value="true" />
@@ -281,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723043685426</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="To-do">
+      <option name="closed" value="true" />
+      <created>1723122367999</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723122367999</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
