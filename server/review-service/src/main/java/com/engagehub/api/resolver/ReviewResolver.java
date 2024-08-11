@@ -15,6 +15,7 @@ public class ReviewResolver {
 
     private final ReviewRepository reviewRepository;
 
+    @Autowired
     public ReviewResolver(ReviewRepository reviewRepository) {
         this.reviewRepository = reviewRepository;
     }
