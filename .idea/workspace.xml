@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="To-do" />
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Docker config">
+      <change beforePath="$PROJECT_DIR$/server/business-service/compose.yaml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +200,7 @@
       <workItem from="1723122284773" duration="143000" />
       <workItem from="1723222319696" duration="118000" />
       <workItem from="1723310046706" duration="3933000" />
-      <workItem from="1723383543209" duration="1909000" />
+      <workItem from="1723383543209" duration="2299000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure modification">
       <option name="closed" value="true" />
@@ -336,7 +338,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723385149559</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="To-do">
+      <option name="closed" value="true" />
+      <created>1723385649106</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723385649106</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723385842881</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723385842881</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +390,7 @@
     </ignored-roots>
     <MESSAGE value="Project structure modification" />
     <MESSAGE value="To-do" />
-    <option name="LAST_COMMIT_MESSAGE" value="To-do" />
+    <MESSAGE value="Docker config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker config" />
   </component>
 </project>
