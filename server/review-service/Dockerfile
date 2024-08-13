@@ -1,5 +1,5 @@
-# Use OpenJDK 17 as the base image
-FROM openjdk:17-jdk-slim as build
+# Use OpenJDK 21 as the base image (since Java 21 is specified in build.gradle)
+FROM openjdk:21-jdk-slim as build
 
 # Set the working directory in the container
 WORKDIR /workspace/app
@@ -17,7 +17,7 @@ COPY src src
 RUN ./gradlew build -x test
 
 # Create the final image
-FROM openjdk:17-jdk-slim
+FROM openjdk:21-jdk-slim
 
 WORKDIR /app
 

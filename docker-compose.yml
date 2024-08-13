@@ -27,6 +27,19 @@ services:
     depends_on:
       - db
 
+  review-service:
+    build:
+      context: ./review-service
+      dockerfile: Dockerfile
+    ports:
+      - "9193:9191"  # Map to a different host port to avoid conflict
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/mydatabase
+      - SPRING_DATASOURCE_USERNAME=myuser
+      - SPRING_DATASOURCE_PASSWORD=secret
+    depends_on:
+      - db
+
   db:
     image: postgres:13
     environment:
