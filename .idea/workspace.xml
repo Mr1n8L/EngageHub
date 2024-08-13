@@ -5,9 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="To-do">
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/AuthenticationServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/dgs/authDataFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/model/auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/repository/ReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/src/main/resources/schema/schema.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/dgs/businessDataFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/dgs/businessMutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/model/business.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/repository/businessRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/src/main/resources/schemas/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/appointment-service/compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/auth-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/engagehub-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/engagehub-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/dgs/AppointmentDataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/dgs/AppointmentDataFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/model/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/model/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/repository/AppointmentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/repository/AppointmentRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,18 +105,27 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.Build EngageHub-new.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.engagehub [clean build].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mr1n8l/Documents/IdeaProjects/EngageHub&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ishit/IdeaProjects/EngageHub-new&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -161,18 +197,7 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.engagehub [clean build]" />
-      <item itemvalue="Spring Boot.BusinessServiceApplication" />
-      <item itemvalue="Spring Boot.CustomerServiceApplication" />
-      <item itemvalue="Spring Boot.ReviewServiceApplication" />
     </list>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -202,7 +227,6 @@
       <workItem from="1723122284773" duration="143000" />
       <workItem from="1723222319696" duration="118000" />
       <workItem from="1723310046706" duration="3933000" />
-      <workItem from="1723383543209" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure modification">
       <option name="closed" value="true" />
@@ -316,23 +340,7 @@
       <option name="project" value="LOCAL" />
       <updated>1723313737916</updated>
     </task>
-    <task id="LOCAL-00015" summary="To-do">
-      <option name="closed" value="true" />
-      <created>1723383606274</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1723383606274</updated>
-    </task>
-    <task id="LOCAL-00016" summary="To-do">
-      <option name="closed" value="true" />
-      <created>1723383638685</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1723383638685</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
