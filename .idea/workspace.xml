@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="updated appointment">
+=======
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Docker config">
+>>>>>>> fd5d2651f8365e39d59fd26a09338211f5c6c5bd
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +79,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
@@ -99,8 +104,31 @@
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ReviewServiceApplication.executor": "Run",
+    "Gradle.engagehub [clean build].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ReviewServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/mr1n8l/Documents/IdeaProjects/EngageHub/server/review-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> fd5d2651f8365e39d59fd26a09338211f5c6c5bd
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -117,7 +145,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.engagehub [clean build]">
+  <component name="RunManager" selected="Spring Boot.ReviewServiceApplication">
     <configuration name="engagehub [clean build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -161,7 +189,7 @@
     </configuration>
     <configuration name="ReviewServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="engagehub.review-service.main" />
+      <module name="engagehub.review-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.engagehub.api.ReviewServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,6 +227,11 @@
       <workItem from="1723122284773" duration="143000" />
       <workItem from="1723222319696" duration="118000" />
       <workItem from="1723310046706" duration="3933000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1723383543209" duration="9712000" />
+      <workItem from="1723555928970" duration="5410000" />
+>>>>>>> fd5d2651f8365e39d59fd26a09338211f5c6c5bd
     </task>
     <task id="LOCAL-00001" summary="Project structure modification">
       <option name="closed" value="true" />
@@ -320,7 +353,123 @@
       <option name="project" value="LOCAL" />
       <updated>1723560277714</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="16" />
+=======
+    <task id="LOCAL-00016" summary="To-do">
+      <option name="closed" value="true" />
+      <created>1723383638685</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723383638685</updated>
+    </task>
+    <task id="LOCAL-00017" summary="To-do">
+      <option name="closed" value="true" />
+      <created>1723385149559</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723385149559</updated>
+    </task>
+    <task id="LOCAL-00018" summary="To-do">
+      <option name="closed" value="true" />
+      <created>1723385649106</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723385649106</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723385842881</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723385842881</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723385876775</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723385876775</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723387717064</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723387717064</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723387957748</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723387957748</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723388752968</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723388752968</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723390182776</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723390182776</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723415972560</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723415972560</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723555979695</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723555979695</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723558033594</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723558033594</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723558125155</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723558125155</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723562005169</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1723562005169</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+>>>>>>> fd5d2651f8365e39d59fd26a09338211f5c6c5bd
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +505,16 @@
     </ignored-roots>
     <MESSAGE value="Project structure modification" />
     <MESSAGE value="To-do" />
+<<<<<<< HEAD
     <MESSAGE value="updated appointment" />
     <option name="LAST_COMMIT_MESSAGE" value="updated appointment" />
+=======
+    <MESSAGE value="Docker config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker config" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+>>>>>>> fd5d2651f8365e39d59fd26a09338211f5c6c5bd
   </component>
 </project>
