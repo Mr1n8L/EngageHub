@@ -44,99 +44,190 @@ EngageHub CRM follows a microservices architecture to ensure scalability, perfor
 
 
 ```plaintext
-engagehub
-├── README.md
+engagehub/
+├── build/
+│   └── ...
+├── client/
+│   └── ...
+├── gradle/
+│   └── ...
+├── server/
+│   ├── api-gateway/
+│   │   ├── bin/
+│   │   ├── build/
+│   │   ├── gradle/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── engagehub/
+│   │   │   │   │           └── api/
+│   │   │   │   │               ├── dgs/
+│   │   │   │   │               ├── model/
+│   │   │   │   │               ├── repository/
+│   │   │   │   │               └── resolver/
+│   │   │   │   └── resources/
+│   │   │   │       └── application.yml
+│   │   ├── .gitignore
+│   │   ├── build.gradle
+│   │   ├── Dockerfile
+│   │   ├── gradlew
+│   │   ├── gradlew.bat
+│   │   └── settings.gradle
+│   ├── appointment-service/
+│   │   ├── bin/
+│   │   ├── build/
+│   │   ├── gradle/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── engagehub/
+│   │   │   │   │           └── api/
+│   │   │   │   │               ├── dgs/
+│   │   │   │   │               │   └── AppointmentDataFetcher.java
+│   │   │   │   │               ├── model/
+│   │   │   │   │               │   └── Appointment.java
+│   │   │   │   │               ├── repository/
+│   │   │   │   │               │   └── AppointmentRepo.java
+│   │   │   │   │               └── resolver/
+│   │   │   │   │                   └── AppointmentResolver.java
+│   │   │   └── resources/
+│   │   │       └── schema/
+│   │   │           └── schema.graphqls
+│   │   │       └── application.yml
+│   │   ├── .gitignore
+│   │   ├── build.gradle
+│   │   ├── Dockerfile
+│   │   ├── gradlew
+│   │   ├── gradlew.bat
+│   │   └── settings.gradle
+│   ├── authentication-service/
+│   │   ├── bin/
+│   │   ├── build/
+│   │   ├── gradle/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── engagehub/
+│   │   │   │   │           └── api/
+│   │   │   │   │               ├── dgs/
+│   │   │   │   │               ├── model/
+│   │   │   │   │               ├── repository/
+│   │   │   │   │               └── resolver/
+│   │   │   └── resources/
+│   │   │       └── application.yml
+│   │   ├── .gitignore
+│   │   ├── build.gradle
+│   │   ├── Dockerfile
+│   │   ├── gradlew
+│   │   ├── gradlew.bat
+│   │   └── settings.gradle
+│   ├── business-service/
+│   │   ├── bin/
+│   │   ├── build/
+│   │   ├── gradle/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── engagehub/
+│   │   │   │   │           └── api/
+│   │   │   │   │               ├── dgs/
+│   │   │   │   │               │   └── BusinessDataFetcher.java
+│   │   │   │   │               ├── model/
+│   │   │   │   │               │   └── Business.java
+│   │   │   │   │               ├── repository/
+│   │   │   │   │               │   └── BusinessRepo.java
+│   │   │   │   │               └── resolver/
+│   │   │   │   │                   └── BusinessResolver.java
+│   │   │   └── resources/
+│   │   │       └── schema/
+│   │   │           └── schema.graphqls
+│   │   │       └── application.yml
+│   │   ├── .gitignore
+│   │   ├── build.gradle
+│   │   ├── Dockerfile
+│   │   ├── gradlew
+│   │   ├── gradlew.bat
+│   │   └── settings.gradle
+│   ├── customer-service/
+│   │   ├── bin/
+│   │   ├── build/
+│   │   ├── gradle/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── engagehub/
+│   │   │   │   │           └── api/
+│   │   │   │   │               ├── dgs/
+│   │   │   │   │               ├── model/
+│   │   │   │   │               ├── repository/
+│   │   │   │   │               └── resolver/
+│   │   │   └── resources/
+│   │   │       └── application.yml
+│   │   ├── .gitignore
+│   │   ├── build.gradle
+│   │   ├── Dockerfile
+│   │   ├── gradlew
+│   │   ├── gradlew.bat
+│   │   └── settings.gradle
+│   ├── payment-service/
+│   │   ├── bin/
+│   │   ├── build/
+│   │   ├── gradle/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── engagehub/
+│   │   │   │   │           └── api/
+│   │   │   │   │               ├── dgs/
+│   │   │   │   │               ├── model/
+│   │   │   │   │               ├── repository/
+│   │   │   │   │               └── resolver/
+│   │   │   └── resources/
+│   │   │       └── application.yml
+│   │   ├── .gitignore
+│   │   ├── build.gradle
+│   │   ├── Dockerfile
+│   │   ├── gradlew
+│   │   ├── gradlew.bat
+│   │   └── settings.gradle
+│   └── review-service/
+│       ├── bin/
+│       ├── build/
+│       ├── gradle/
+│       ├── src/
+│       │   ├── main/
+│       │   │   ├── java/
+│       │   │   │   └── com/
+│       │   │   │       └── engagehub/
+│       │   │   │           └── api/
+│       │   │   │               ├── dgs/
+│       │   │   │               │   └── ReviewDataFetcher.java
+│       │   │   │               ├── model/
+│       │   │   │               │   └── Review.java
+│       │   │   │               ├── repository/
+│       │   │   │               │   └── ReviewRepo.java
+│       │   │   │               └── resolver/
+│       │   │   │                   └── ReviewResolver.java
+│       │   │   └── resources/
+│       │   │       └── schema/
+│       │   │           └── schema.graphqls
+│       │   │       └── application.yml
+│       ├── .gitignore
+│       ├── build.gradle
+│       ├── Dockerfile
+│       ├── gradlew
+│       ├── gradlew.bat
+│       └── settings.gradle
+├── docker-compose.yml
 ├── settings.gradle
-├── build.gradle
-├── common
-│   ├── build.gradle
-│   └── src
-│       └── main
-│           └── java
-│               └── com
-│                   └── engagehub
-│                       └── crm
-│                           ├── config
-│                           │   └── GraphQLConfig.java
-│                           └── util
-│                               └── DateUtils.java
-├── service-discovery
-│   ├── build.gradle
-│   └── src
-│       └── main
-│           └── java
-│               └── com
-│                   └── engagehub
-│                       └── crm
-│                           └── discovery
-│                               └── DiscoveryApplication.java
-├── api-gateway
-│   ├── build.gradle
-│   └── src
-│       └── main
-│           └── java
-│               └── com
-│                   └── engagehub
-│                       └── crm
-│                           └── gateway
-│                               └── ApiGatewayApplication.java
-├── appointment-service
-│   ├── build.gradle
-│   └── src
-│       └── main
-│           └── java
-│               └── com
-│                   └── engagehub
-│                       └── crm
-│                           └── appointment
-│                               ├── AppointmentServiceApplication.java
-│                               ├── model
-│                               │   └── Appointment.java
-│                               ├── repository
-│                               │   └── AppointmentRepository.java
-│                               ├── service
-│                               │   └── AppointmentService.java
-│                               └── dgs
-│                                   └── AppointmentDataFetcher.java
-├── customer-service
-│   ├── build.gradle
-│   └── src
-│       └── main
-│           └── java
-│               └── com
-│                   └── engagehub
-│                       └── crm
-│                           └── customer
-│                               ├── CustomerServiceApplication.java
-│                               ├── model
-│                               │   └── Customer.java
-│                               ├── repository
-│                               │   └── CustomerRepository.java
-│                               ├── service
-│                               │   └── CustomerService.java
-│                               └── dgs
-│                                   └── CustomerDataFetcher.java
-├── business-service
-│   ├── build.gradle
-│   └── src
-│       └── main
-│           └── java
-│               └── com
-│                   └── engagehub
-│                       └── crm
-│                           └── business
-│                               ├── BusinessServiceApplication.java
-│                               ├── model
-│                               │   └── Business.java
-│                               ├── repository
-│                               │   └── BusinessRepository.java
-│                               ├── service
-│                               │   └── BusinessService.java
-│                               └── dgs
-│                                   └── BusinessDataFetcher.java
-└── docker
-    ├── Dockerfile
-    └── docker-compose.yml
+└── build.gradle
+
 ```
 
 ## Getting Started
