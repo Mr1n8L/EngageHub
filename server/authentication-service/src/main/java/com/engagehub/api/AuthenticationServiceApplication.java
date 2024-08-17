@@ -1,10 +1,12 @@
 package com.engagehub.api;
 
-import com.engagehub.crm.authentication.model.User;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.Optional;
+@SpringBootApplication
+public class AuthenticationServiceApplication {
 
-public interface UserRepository extends JpaRepository<User, Long> {
-    Optional<User> findByEmail(String email);
+    public static void main(String[] args) {
+        SpringApplication.run(AuthenticationServiceApplication.class, args);
+    }
 }

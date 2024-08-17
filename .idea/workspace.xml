@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="readme" />
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="readme">
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/model/AuthenticationSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/repository/AuthenticationSessionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/resolver/AuthenticationResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/AuthenticationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/AuthenticationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/dgs/authDataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/dgs/AuthenticationDataFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/model/auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/model/AuthenticationUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/repository/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/repository/AuthenticationUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/resources/schema/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/resources/schema/schema.graphql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,6 +234,7 @@
       <workItem from="1723555928970" duration="5410000" />
       <workItem from="1723744077993" duration="234000" />
       <workItem from="1723745767296" duration="568000" />
+      <workItem from="1723904716989" duration="3265000" />
     </task>
     <task id="LOCAL-00001" summary="Project structure modification">
       <option name="closed" value="true" />

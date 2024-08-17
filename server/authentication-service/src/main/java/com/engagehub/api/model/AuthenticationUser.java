@@ -1,13 +1,12 @@
 package com.engagehub.api.model;
 
-
 import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "users")
-public class User {
+@Table(name = "authentication_users")
+public class AuthenticationUser {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -19,6 +18,4 @@ public class User {
     private String password;
 
     private boolean emailVerified = false;
-
-    // Additional fields can be added as needed
 }

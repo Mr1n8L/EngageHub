@@ -1,4 +1,4 @@
-# schema.graphql
+# schema.graphqls
 
 # Define the Appointment type based on the Appointment entity
 type Appointment {

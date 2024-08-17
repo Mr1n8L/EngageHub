@@ -1,0 +1,78 @@
+# schema.graphqls
+
+# Define the AuthenticationUser type based on the AuthenticationUser entity
+type AuthenticationUser {
+    id: ID!
+    email: String!
+    emailVerified: Boolean!
+}
+
+# Define the AuthenticationSession type based on the AuthenticationSession entity
+type AuthenticationSession {
+    id: ID!
+    userId: ID!
+    device: String
+    location: String
+    active: Boolean!
+}
+
+# Define the queries available for fetching data
+type Query {
+    # Fetch all users
+    allUsers: [AuthenticationUser!]!
+    # Fetch a single user by ID
+    userById(id: ID!): AuthenticationUser
+    # Fetch a single session by ID
+    sessionById(id: ID!): AuthenticationSession
+    # Fetch all active sessions for a user
+    activeSessions(userId: ID!): [AuthenticationSession!]!
+}
+
+# Define the input type for creating or updating a user
+input AuthenticationUserInput {
+    email: String!
+    password: String!
+    emailVerified: Boolean
+}
+
+# Define the input type for creating or updating a session
+input AuthenticationSessionInput {
+    userId: ID!
+    device: String
+    location: String
+    active: Boolean!
+}
+
+# Define the mutations available for modifying data
+type Mutation {
+    # Register a new user
+    registerUser(input: AuthenticationUserInput!): AuthenticationUser!
+    # Update an existing user
+    updateUser(id: ID!, input: AuthenticationUserInput!): AuthenticationUser!
+    # Delete a user
+    deleteUser(id: ID!): Boolean!
+
+    # Create a new session
+    createSession(input: AuthenticationSessionInput!): AuthenticationSession!
+    # Update an existing session
+    updateSession(id: ID!, input: AuthenticationSessionInput!): AuthenticationSession!
+    # End a session (delete)
+    endSession(id: ID!): Boolean!
+
+    # Login a user (returns a token or session info)
+    loginUser(email: String!, password: String!): String!
+    # Request password reset (sends email)
+    requestPasswordReset(email: String!): String!
+    # Reset password using token
+    resetPassword(token: String!, newPassword: String!): String!
+    # Enable two-factor authentication
+    enableTwoFactorAuthentication(userId: ID!, method: String!): Boolean!
+    # Disable two-factor authentication
+    disableTwoFactorAuthentication(userId: ID!): Boolean!
+}
+
+# Define the schema by specifying the queries and mutations
+schema {
+    query: Query
+    mutation: Mutation
+}
