@@ -7,7 +7,7 @@ type Customer {
 
 type Query {
     customers: [Customer]!
-    customerById(id: ID!): Customer
+    customer(id: ID!): Customer
     searchCustomers(name: String, email: String, phoneNumber: String): [Customer]
 }
 
