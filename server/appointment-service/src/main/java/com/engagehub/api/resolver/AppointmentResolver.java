@@ -1,9 +1,10 @@
 package com.engagehub.api.resolver;
 
 import com.engagehub.api.model.Appointment;
-import com.engagehub.api.repository.appointmentRepo;
+import com.engagehub.api.service.AppointmentService;
 import com.netflix.graphql.dgs.DgsComponent;
-import com.netflix.graphql.dgs.DgsData;
+import com.netflix.graphql.dgs.DgsMutation;
+import com.netflix.graphql.dgs.DgsQuery;
 import com.netflix.graphql.dgs.InputArgument;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -14,62 +15,62 @@ import java.util.Optional;
 @DgsComponent
 public class AppointmentResolver {
 
+    private final AppointmentService appointmentService;
+
     @Autowired
-    private appointmentRepo appointmentRepo;
-
-    // Query Resolver for fetching all appointments
-    @DgsData(parentType = "Query", field = "allAppointments")
-    public List<Appointment> allAppointments() {
-        return appointmentRepo.findAll();
+    public AppointmentResolver(AppointmentService appointmentService) {
+        this.appointmentService = appointmentService;
     }
 
-    // Query Resolver for fetching an appointment by ID
-    @DgsData(parentType = "Query", field = "appointmentById")
-    public Appointment getAppointmentById(@InputArgument Long id) {
-        return appointmentRepo.findById(id).orElse(null);
+    @DgsQuery
+    public List<Appointment> appointments() {
+        return appointmentService.findAllAppointments();
     }
 
-    // Mutation Resolver for creating a new appointment
-    @DgsData(parentType = "Mutation", field = "createAppointment")
-    public Appointment createAppointment(@InputArgument("input") AppointmentInput input) {
-        Appointment appointment = new Appointment();
-        appointment.setDateTime(LocalDateTime.parse(input.getDateTime()));
-        appointment.setService(input.getService());
-        appointment.setCustomerName(input.getCustomerName());
-        appointment.setCustomerEmail(input.getCustomerEmail());
-        appointment.setCustomerPhoneNumber(input.getCustomerPhoneNumber());
-        appointment.setConfirmed(input.isConfirmed());
-        appointment.setCancelled(input.isCancelled());
-        appointment.setReminderSent(input.isReminderSent());
-        return appointmentRepo.save(appointment);
+    @DgsQuery
+    public Optional<Appointment> appointment(@InputArgument Long id) {
+        return appointmentService.findAppointmentById(id);
     }
 
-    // Mutation Resolver for updating an existing appointment
-    @DgsData(parentType = "Mutation", field = "updateAppointment")
-    public Appointment updateAppointment(@InputArgument Long id, @InputArgument("input") AppointmentInput input) {
-        Optional<Appointment> appointmentOptional = appointmentRepo.findById(id);
-        if (appointmentOptional.isPresent()) {
-            Appointment appointment = appointmentOptional.get();
-            appointment.setDateTime(LocalDateTime.parse(input.getDateTime()));
-            appointment.setService(input.getService());
-            appointment.setCustomerName(input.getCustomerName());
-            appointment.setCustomerEmail(input.getCustomerEmail());
-            appointment.setCustomerPhoneNumber(input.getCustomerPhoneNumber());
-            appointment.setConfirmed(input.isConfirmed());
-            appointment.setCancelled(input.isCancelled());
-            appointment.setReminderSent(input.isReminderSent());
-            return appointmentRepo.save(appointment);
-        }
-        return null;
+    @DgsMutation
+    public Appointment addAppointment(@InputArgument String serviceName,
+                                      @InputArgument LocalDateTime appointmentDateTime,
+                                      @InputArgument String customerName,
+                                      @InputArgument String customerEmail,
+                                      @InputArgument String customerPhoneNumber,
+                                      @InputArgument String status,
+                                      @InputArgument String notes) {
+        Appointment appointment = new Appointment(null, serviceName, appointmentDateTime, customerName, customerEmail, customerPhoneNumber, status, notes);
+        return appointmentService.saveAppointment(appointment);
     }
 
-    // Mutation Resolver for deleting an appointment
-    @DgsData(parentType = "Mutation", field = "deleteAppointment")
+    @DgsMutation
+    public Appointment updateAppointment(@InputArgument Long id,
+                                         @InputArgument String serviceName,
+                                         @InputArgument LocalDateTime appointmentDateTime,
+                                         @InputArgument String customerName,
+                                         @InputArgument String customerEmail,
+                                         @InputArgument String customerPhoneNumber,
+                                         @InputArgument String status,
+                                         @InputArgument String notes) {
+        Appointment appointmentDetails = new Appointment(null, serviceName, appointmentDateTime, customerName, customerEmail, customerPhoneNumber, status, notes);
+        return appointmentService.updateAppointment(id, appointmentDetails);
+    }
+
+    @DgsMutation
     public Boolean deleteAppointment(@InputArgument Long id) {
-        if (appointmentRepo.existsById(id)) {
-            appointmentRepo.deleteById(id);
-            return true;
-        }
-        return false;
+        appointmentService.deleteAppointment(id);
+        return true;
     }
+
+    @DgsQuery
+    public List<Appointment> searchAppointments(
+            @InputArgument String customerName,
+            @InputArgument LocalDateTime startDateTime,
+            @InputArgument LocalDateTime endDateTime,
+            @InputArgument String status) {
+        return appointmentService.searchAppointments(customerName, startDateTime, endDateTime, status);
+    }
+
+    // Additional resolver methods for other functionalities can be added here.
 }
