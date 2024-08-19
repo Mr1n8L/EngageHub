@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="microservices config">
-      <change afterPath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/resolver/CustomerResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/customer-service/src/main/resources/schema/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/server/customer-service/src/main/resources/schema/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -540,7 +539,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724042314145</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724053194150</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1724053194150</updated>
+    </task>
+    <task id="LOCAL-00041" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724053219728</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1724053219728</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
