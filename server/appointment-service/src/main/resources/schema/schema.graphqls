@@ -1,50 +1,46 @@
-# schema.graphqls
-
-# Define the Appointment type based on the Appointment entity
 type Appointment {
     id: ID!
-    dateTime: String!
-    service: String!
+    serviceName: String!
+    appointmentDateTime: String!
     customerName: String!
     customerEmail: String!
     customerPhoneNumber: String!
-    isConfirmed: Boolean!
-    isCancelled: Boolean!
-    isReminderSent: Boolean!
+    status: String!
+    notes: String
 }
 
-# Define the queries available for fetching data
 type Query {
-    # Fetch all appointments
-    allAppointments: [Appointment!]!
-    # Fetch a single appointment by ID
-    appointmentById(id: ID!): Appointment
+    appointments: [Appointment]!
+    appointment(id: ID!): Appointment
+    searchAppointments(
+        customerName: String,
+        startDateTime: String,
+        endDateTime: String,
+        status: String
+    ): [Appointment]
 }
 
-# Define the input type for creating or updating an appointment
-input AppointmentInput {
-    dateTime: String!
-    service: String!
-    customerName: String!
-    customerEmail: String!
-    customerPhoneNumber: String!
-    isConfirmed: Boolean!
-    isCancelled: Boolean!
-    isReminderSent: Boolean!
-}
-
-# Define the mutations available for modifying data
 type Mutation {
-    # Create a new appointment
-    createAppointment(input: AppointmentInput!): Appointment!
-    # Update an existing appointment
-    updateAppointment(id: ID!, input: AppointmentInput!): Appointment!
-    # Delete an appointment
-    deleteAppointment(id: ID!): Boolean!
-}
+    addAppointment(
+        serviceName: String!,
+        appointmentDateTime: String!,
+        customerName: String!,
+        customerEmail: String!,
+        customerPhoneNumber: String!,
+        status: String!,
+        notes: String
+    ): Appointment
 
-# Define the schema by specifying the queries and mutations
-schema {
-    query: Query
-    mutation: Mutation
+    updateAppointment(
+        id: ID!,
+        serviceName: String!,
+        appointmentDateTime: String!,
+        customerName: String!,
+        customerEmail: String!,
+        customerPhoneNumber: String!,
+        status: String!,
+        notes: String
+    ): Appointment
+
+    deleteAppointment(id: ID!): Boolean
 }
