@@ -1,4 +1,4 @@
-package com.microservice.service;
+package com.engagehub.api.;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

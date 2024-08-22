@@ -1,7 +1,7 @@
-package com.microservice.service.dgs;
 
-import com.microservice.service.model.Appointment;
-import com.microservice.service.repository.AppointmentRepository;
+package com.engagehub.api.dgs;
+import com.engagehub.api.model.Appointment;
+import com.engagehub.api.repository.AppointmentRepository;
 import com.netflix.graphql.dgs.DgsComponent;
 import com.netflix.graphql.dgs.DgsMutation;
 import com.netflix.graphql.dgs.DgsQuery;

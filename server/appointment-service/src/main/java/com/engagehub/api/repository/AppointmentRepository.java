@@ -1,6 +1,6 @@
-package com.microservice.service.repository;
+package com.engagehub.api.repository;
 
-import com.microservice.service.model.Appointment;
+import com.engagehub.api.model.Appointment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

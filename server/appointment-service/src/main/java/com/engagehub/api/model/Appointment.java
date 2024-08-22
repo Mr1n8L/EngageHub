@@ -1,4 +1,4 @@
-package com.microservice.service.model;
+package com.engagehub.api.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
