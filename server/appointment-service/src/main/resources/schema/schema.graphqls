@@ -1,50 +1,19 @@
-# schema.graphql
-
-# Define the Appointment type based on the Appointment entity
 type Appointment {
     id: ID!
-    dateTime: String!
-    service: String!
     customerName: String!
-    customerEmail: String!
-    customerPhoneNumber: String!
-    isConfirmed: Boolean!
-    isCancelled: Boolean!
-    isReminderSent: Boolean!
+    serviceName: String!  # Changed from serviceType to serviceName
+    appointmentDateTime: String!
+    status: String!
 }
 
-# Define the queries available for fetching data
 type Query {
-    # Fetch all appointments
-    allAppointments: [Appointment!]!
-    # Fetch a single appointment by ID
-    appointmentById(id: ID!): Appointment
+    appointments: [Appointment]!
+    appointment(id: ID!): Appointment
+    searchAppointments(customerName: String, serviceName: String): [Appointment]  # Aligned with DGS/resolver
 }
 
-# Define the input type for creating or updating an appointment
-input AppointmentInput {
-    dateTime: String!
-    service: String!
-    customerName: String!
-    customerEmail: String!
-    customerPhoneNumber: String!
-    isConfirmed: Boolean!
-    isCancelled: Boolean!
-    isReminderSent: Boolean!
-}
-
-# Define the mutations available for modifying data
 type Mutation {
-    # Create a new appointment
-    createAppointment(input: AppointmentInput!): Appointment!
-    # Update an existing appointment
-    updateAppointment(id: ID!, input: AppointmentInput!): Appointment!
-    # Delete an appointment
-    deleteAppointment(id: ID!): Boolean!
-}
-
-# Define the schema by specifying the queries and mutations
-schema {
-    query: Query
-    mutation: Mutation
+    addAppointment(customerName: String!, serviceName: String!, appointmentDateTime: String!): Appointment  # Changed from serviceType to serviceName
+    updateAppointment(id: ID!, customerName: String, serviceName: String, appointmentDateTime: String, status: String!): Appointment  # Added fields to match DGS/resolver
+    deleteAppointment(id: ID!): Boolean
 }

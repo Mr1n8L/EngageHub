@@ -1,18 +1,22 @@
-package com.engagehub.api.repository;
+package com.microservice.service.repository;
 
-import com.engagehub.api.model.Appointment;
+import com.microservice.service.model.Appointment;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
+@Repository
 public interface AppointmentRepository extends JpaRepository<Appointment, Long> {
 
-    List<Appointment> findByDateTime(LocalDateTime dateTime);
+    List<Appointment> findByCustomerNameContaining(String customerName);
 
-    List<Appointment> findByDate(String date);
+    List<Appointment> findByAppointmentDateTimeBetween(LocalDateTime startDateTime, LocalDateTime endDateTime);
 
-    List<Appointment> findByService(String service);
+    List<Appointment> findByStatus(String status);
 
-    List<Appointment> findByCustomerName(String customerName);
+    List<Appointment> findByCustomerNameContainingAndServiceNameContaining(String customerName, String serviceName);
+
+
 }

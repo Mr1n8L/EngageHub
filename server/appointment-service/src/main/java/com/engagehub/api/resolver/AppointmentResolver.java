@@ -1,75 +1,76 @@
-package com.engagehub.api.resolver;
+package com.microservice.service.resolver;
 
-import com.engagehub.api.model.Appointment;
-import com.engagehub.api.repository.appointmentRepo;
+import com.microservice.service.model.Appointment;
+import com.microservice.service.repository.AppointmentRepository;
 import com.netflix.graphql.dgs.DgsComponent;
-import com.netflix.graphql.dgs.DgsData;
+import com.netflix.graphql.dgs.DgsMutation;
+import com.netflix.graphql.dgs.DgsQuery;
 import com.netflix.graphql.dgs.InputArgument;
-import org.springframework.beans.factory.annotation.Autowired;
+
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
+
 @DgsComponent
 public class AppointmentResolver {
 
-    @Autowired
-    private appointmentRepo appointmentRepo;
+    private final AppointmentRepository appointmentRepository;
 
-    // Query Resolver for fetching all appointments
-    @DgsData(parentType = "Query", field = "allAppointments")
-    public List<Appointment> allAppointments() {
-        return appointmentRepo.findAll();
+    public AppointmentResolver(AppointmentRepository appointmentRepository) {
+        this.appointmentRepository = appointmentRepository;
     }
 
-    // Query Resolver for fetching an appointment by ID
-    @DgsData(parentType = "Query", field = "appointmentById")
-    public Appointment getAppointmentById(@InputArgument Long id) {
-        return appointmentRepo.findById(id).orElse(null);
+    @DgsQuery
+    public List<Appointment> appointments() {
+        return appointmentRepository.findAll();
     }
 
-    // Mutation Resolver for creating a new appointment
-    @DgsData(parentType = "Mutation", field = "createAppointment")
-    public Appointment createAppointment(@InputArgument("input") AppointmentInput input) {
-        Appointment appointment = new Appointment();
-        appointment.setDateTime(LocalDateTime.parse(input.getDateTime()));
-        appointment.setService(input.getService());
-        appointment.setCustomerName(input.getCustomerName());
-        appointment.setCustomerEmail(input.getCustomerEmail());
-        appointment.setCustomerPhoneNumber(input.getCustomerPhoneNumber());
-        appointment.setConfirmed(input.isConfirmed());
-        appointment.setCancelled(input.isCancelled());
-        appointment.setReminderSent(input.isReminderSent());
-        return appointmentRepo.save(appointment);
+    @DgsQuery
+    public Optional<Appointment> appointment(@InputArgument String id) {
+        Long appointmentId = Long.parseLong(id); // Convert String to Long
+        return appointmentRepository.findById(appointmentId);
+    }
+    @DgsMutation
+    public Appointment addAppointment(@InputArgument String customerName,
+                                      @InputArgument String serviceName,
+                                      @InputArgument String appointmentDateTime) {
+        LocalDateTime dateTime = LocalDateTime.parse(appointmentDateTime); // Convert String to LocalDateTime
+        Appointment appointment = new Appointment(null, customerName, serviceName, dateTime, "BOOKED");
+        return appointmentRepository.save(appointment);
     }
 
-    // Mutation Resolver for updating an existing appointment
-    @DgsData(parentType = "Mutation", field = "updateAppointment")
-    public Appointment updateAppointment(@InputArgument Long id, @InputArgument("input") AppointmentInput input) {
-        Optional<Appointment> appointmentOptional = appointmentRepo.findById(id);
+    @DgsMutation
+    public Appointment updateAppointment(@InputArgument String id,
+                                         @InputArgument String customerName,
+                                         @InputArgument String serviceName,
+                                         @InputArgument String appointmentDateTime) {
+        Long appointmentId = Long.parseLong(id); // Convert String to Long
+        LocalDateTime dateTime = LocalDateTime.parse(appointmentDateTime); // Convert String to LocalDateTime
+        Optional<Appointment> appointmentOptional = appointmentRepository.findById(appointmentId);
         if (appointmentOptional.isPresent()) {
-            Appointment appointment = appointmentOptional.get();
-            appointment.setDateTime(LocalDateTime.parse(input.getDateTime()));
-            appointment.setService(input.getService());
-            appointment.setCustomerName(input.getCustomerName());
-            appointment.setCustomerEmail(input.getCustomerEmail());
-            appointment.setCustomerPhoneNumber(input.getCustomerPhoneNumber());
-            appointment.setConfirmed(input.isConfirmed());
-            appointment.setCancelled(input.isCancelled());
-            appointment.setReminderSent(input.isReminderSent());
-            return appointmentRepo.save(appointment);
+            Appointment existingAppointment = appointmentOptional.get();
+            existingAppointment.setCustomerName(customerName);
+            existingAppointment.setServiceName(serviceName);
+            existingAppointment.setAppointmentDateTime(dateTime);
+            return appointmentRepository.save(existingAppointment);
+        } else {
+            throw new RuntimeException("Appointment not found");
         }
-        return null;
     }
 
-    // Mutation Resolver for deleting an appointment
-    @DgsData(parentType = "Mutation", field = "deleteAppointment")
-    public Boolean deleteAppointment(@InputArgument Long id) {
-        if (appointmentRepo.existsById(id)) {
-            appointmentRepo.deleteById(id);
-            return true;
-        }
-        return false;
+    @DgsMutation
+    public Boolean deleteAppointment(@InputArgument String id) {
+        Long appointmentId = Long.parseLong(id); // Convert String to Long
+        appointmentRepository.deleteById(appointmentId);
+        return true;
+    }
+
+    @DgsQuery
+    public List<Appointment> searchAppointments(
+            @InputArgument String customerName,
+            @InputArgument String serviceName) {
+        return appointmentRepository.findByCustomerNameContainingAndServiceNameContaining(customerName, serviceName);
     }
 }

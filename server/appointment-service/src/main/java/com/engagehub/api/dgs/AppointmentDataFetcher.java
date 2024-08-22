@@ -1,109 +1,69 @@
-package com.engagehub.api.dgs;
+package com.microservice.service.dgs;
 
-import com.engagehub.api.model.Appointment;
-import com.engagehub.api.repository.AppointmentRepository;
+import com.microservice.service.model.Appointment;
+import com.microservice.service.repository.AppointmentRepository;
 import com.netflix.graphql.dgs.DgsComponent;
-import com.netflix.graphql.dgs.DgsData;
+import com.netflix.graphql.dgs.DgsMutation;
+import com.netflix.graphql.dgs.DgsQuery;
 import com.netflix.graphql.dgs.InputArgument;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Optional;
 
 @DgsComponent
 public class AppointmentDataFetcher {
 
-    @Autowired
-    private AppointmentRepository appointmentRepository;
+    private final AppointmentRepository appointmentRepository;
 
-    // 1. Book an Appointment
-    @DgsData(parentType = "Mutation", field = "bookAppointment")
-    public Appointment bookAppointment(@InputArgument LocalDateTime dateTime,
-                                       @InputArgument String service,
-                                       @InputArgument String customerName,
-                                       @InputArgument String customerEmail,
-                                       @InputArgument String customerPhoneNumber) {
-        // Check for available slots before booking
-        List<Appointment> existingAppointments = appointmentRepository.findByDateTime(dateTime);
-        if (!existingAppointments.isEmpty()) {
-            throw new RuntimeException("The selected time slot is not available. Please choose a different time.");
-        }
+    public AppointmentDataFetcher(AppointmentRepository appointmentRepository) {
+        this.appointmentRepository = appointmentRepository;
+    }
 
-        // Save the appointment
-        Appointment appointment = new Appointment();
-        appointment.setDateTime(dateTime);
-        appointment.setService(service);
-        appointment.setCustomerName(customerName);
-        appointment.setCustomerEmail(customerEmail);
-        appointment.setCustomerPhoneNumber(customerPhoneNumber);
-        appointment.setConfirmed(true);
-        appointment.setCancelled(false);
-        appointment.setReminderSent(false);
+    @DgsQuery
+    public List<Appointment> appointments() {
+        return appointmentRepository.findAll();
+    }
 
-        //Todo: Send confirmation notification to the customer
+    @DgsQuery
+    public Optional<Appointment> appointmentById(@InputArgument String id) {  // Changed from Long to String
+        Long appointmentId = Long.parseLong(id); // Convert String id to Long
+        return appointmentRepository.findById(appointmentId);
+    }
 
+    @DgsMutation
+    public Appointment addAppointment(@InputArgument String customerName,
+                                      @InputArgument String serviceName,
+                                      @InputArgument String appointmentDateTime) {  // Changed LocalDateTime to String
+        LocalDateTime dateTime = LocalDateTime.parse(appointmentDateTime, DateTimeFormatter.ISO_DATE_TIME);
+        Appointment appointment = new Appointment(null, customerName, serviceName, dateTime, "BOOKED");
         return appointmentRepository.save(appointment);
     }
 
-    // 2. View Appointments
-    @DgsData(parentType = "Query", field = "allAppointments")
-    public List<Appointment> allAppointments(@InputArgument String filterByDate,
-                                             @InputArgument String filterByService,
-                                             @InputArgument String filterByCustomer) {
-        if (filterByDate != null && filterByService == null && filterByCustomer == null) {
-            return appointmentRepository.findByDate(filterByDate);
-        } else if (filterByService != null && filterByDate == null && filterByCustomer == null) {
-            return appointmentRepository.findByService(filterByService);
-        } else if (filterByCustomer != null && filterByDate == null && filterByService == null) {
-            return appointmentRepository.findByCustomerName(filterByCustomer);
-        } else {
-            return appointmentRepository.findAll();
-        }
+    @DgsMutation
+    public Appointment updateAppointment(@InputArgument String id,
+                                         @InputArgument String customerName,
+                                         @InputArgument String serviceName,
+                                         @InputArgument String appointmentDateTime,
+                                         @InputArgument String status) {  // Added status to match the mutation schema
+
+        Long appointmentId = Long.parseLong(id); // Convert String id to Long
+        LocalDateTime dateTime = LocalDateTime.parse(appointmentDateTime, DateTimeFormatter.ISO_DATE_TIME);
+
+        return appointmentRepository.findById(appointmentId).map(existingAppointment -> {
+            existingAppointment.setCustomerName(customerName);
+            existingAppointment.setServiceName(serviceName);
+            existingAppointment.setAppointmentDateTime(dateTime);
+            existingAppointment.setStatus(status);
+            return appointmentRepository.save(existingAppointment);
+        }).orElseThrow(() -> new RuntimeException("Appointment not found"));
     }
 
-    // 3. Update an Appointment
-    @DgsData(parentType = "Mutation", field = "updateAppointment")
-    public Appointment updateAppointment(@InputArgument Long id,
-                                         @InputArgument LocalDateTime newDateTime,
-                                         @InputArgument String newService) {
-        Optional<Appointment> appointmentOptional = appointmentRepository.findById(id);
-        if (appointmentOptional.isPresent()) {
-            Appointment appointment = appointmentOptional.get();
-
-            // Check for slot availability before updating
-            List<Appointment> existingAppointments = appointmentRepository.findByDateTime(newDateTime);
-            if (!existingAppointments.isEmpty() && !existingAppointments.contains(appointment)) {
-                throw new RuntimeException("The selected time slot is not available. Please choose a different time.");
-            }
-
-            appointment.setDateTime(newDateTime);
-            appointment.setService(newService);
-            appointment.setConfirmed(true);
-
-            //todo: Send update notification to the customer and business
-
-            return appointmentRepository.save(appointment);
-        } else {
-            throw new RuntimeException("Appointment not found.");
-        }
-    }
-
-    // 4. Cancel an Appointment
-    @DgsData(parentType = "Mutation", field = "cancelAppointment")
-    public String cancelAppointment(@InputArgument Long id) {
-        Optional<Appointment> appointmentOptional = appointmentRepository.findById(id);
-        if (appointmentOptional.isPresent()) {
-            Appointment appointment = appointmentOptional.get();
-            appointment.setCancelled(true);
-            appointmentRepository.save(appointment);
-
-            // todo: Send cancellation notification to the customer and business
-
-            return "Appointment cancelled successfully.";
-        } else {
-            throw new RuntimeException("Appointment not found.");
-        }
+    @DgsMutation
+    public Boolean deleteAppointment(@InputArgument String id) {  // Changed from Long to String
+        Long appointmentId = Long.parseLong(id); // Convert String id to Long
+        appointmentRepository.deleteById(appointmentId);
+        return true;
     }
 }

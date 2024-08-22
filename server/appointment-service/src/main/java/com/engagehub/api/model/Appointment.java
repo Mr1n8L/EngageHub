@@ -1,15 +1,13 @@
-package com.engagehub.api.model;
-
-
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+package com.microservice.service.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 
@@ -22,15 +20,11 @@ public class Appointment {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public Long id;
-
-    private LocalDateTime dateTime;
-    private String service;
+    private Long id;
     private String customerName;
-    private String customerEmail;
-    private String customerPhoneNumber;
+    private String serviceName;  // Ensure this is 'serviceName' and not 'serviceType'
+    private LocalDateTime appointmentDateTime;
+    private String status;
 
-    private boolean isConfirmed;
-    private boolean isCancelled;
-    private boolean isReminderSent;
+    // The @AllArgsConstructor annotation should generate the required constructor
 }
