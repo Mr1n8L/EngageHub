@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="To-do">
-      <change beforePath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/AppointmentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/AppointmentServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;apointment&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ishit/IdeaProjects/EngageHub-new&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ishit/IdeaProjects/service&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
