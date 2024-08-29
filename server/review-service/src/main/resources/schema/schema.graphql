@@ -1,15 +1,18 @@
+type Query {
+    reviews: [Review]
+    reviewById(id: ID!): Review
+}
+
+type Mutation {
+    submitReview(customerId: ID!, businessId: ID!, rating: Int!, comment: String): Review
+    respondToReview(reviewId: ID!, response: String!): Review
+}
+
 type Review {
     id: ID!
     customerId: ID!
     businessId: ID!
     rating: Int!
     comment: String
-}
-
-type Query {
-    reviews: [Review]
-}
-
-type Mutation {
-    submitReview(customerId: ID!, businessId: ID!, rating: Int!, comment: String): Review
+    response: String
 }
