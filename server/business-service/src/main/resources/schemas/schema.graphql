@@ -1,21 +1,11 @@
-# schema.graphqls
-
 type Query {
-    # Retrieves a list of all businesses
     businesses: [Business!]!
-
-    # Retrieves a specific business by ID
     business(id: ID!): Business
 }
 
 type Mutation {
-    # Adds a new business to the system
     addBusiness(name: String!, address: String!, type: String!, contactInfo: String!): Business!
-
-    # Updates an existing business by ID
     updateBusiness(id: ID!, name: String, address: String, type: String, contactInfo: String): Business!
-
-    # Deletes a business by ID
     deleteBusiness(id: ID!): Boolean!
 }
 
