@@ -1,35 +1,33 @@
 package com.engagehub.api.dgs;
 
 import com.engagehub.api.model.AuthenticationUser;
-import com.engagehub.api.repository.AuthenticationUserRepository;
-import com.netflix.graphql.dgs.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import com.engagehub.api.model.AuthenticationSession;
+import com.engagehub.api.service.AuthenticationService;
+import org.springframework.stereotype.Component;
+import graphql.schema.DataFetcher;
 
-import java.util.Optional;
-
-@DgsComponent
+@Component
 public class AuthenticationDataFetcher {
 
-    @Autowired
-    private AuthenticationUserRepository authenticationUserRepository;
+    private final AuthenticationService authenticationService;
 
-    private final BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-
-    @DgsMutation
-    public String registerUser(@InputArgument String email, @InputArgument String password) {
-        Optional<AuthenticationUser> existingUser = authenticationUserRepository.findByEmail(email);
-        if (existingUser.isPresent()) {
-            throw new RuntimeException("Email already registered");
-        }
-
-        AuthenticationUser user = new AuthenticationUser();
-        user.setEmail(email);
-        user.setPassword(passwordEncoder.encode(password));
-        authenticationUserRepository.save(user);
-
-        return "User registered successfully. Please check your email for confirmation.";
+    public AuthenticationDataFetcher(AuthenticationService authenticationService) {
+        this.authenticationService = authenticationService;
     }
 
-    // Additional mutations and queries can be implemented as needed
+    public DataFetcher<AuthenticationUser> getUserByIdDataFetcher() {
+        return dataFetchingEnvironment -> {
+            Long userId = dataFetchingEnvironment.getArgument("id");
+            return authenticationService.getUserById(userId);
+        };
+    }
+
+    public DataFetcher<AuthenticationSession> getSessionByIdDataFetcher() {
+        return dataFetchingEnvironment -> {
+            Long sessionId = dataFetchingEnvironment.getArgument("id");
+            return authenticationService.getSessionById(sessionId);
+        };
+    }
+
+    // Add other DataFetchers if needed
 }

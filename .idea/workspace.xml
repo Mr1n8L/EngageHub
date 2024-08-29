@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="config">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/service/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/AuthenticationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/AuthenticationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/dgs/AuthenticationDataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/dgs/AuthenticationDataFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/model/AuthenticationSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/model/AuthenticationSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/model/AuthenticationUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/model/AuthenticationUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/repository/AuthenticationSessionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/repository/AuthenticationSessionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/repository/AuthenticationUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/repository/AuthenticationUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/resolver/AuthenticationResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,15 +249,8 @@
       <workItem from="1724761209327" duration="33000" />
       <workItem from="1724933128893" duration="41000" />
       <workItem from="1724936101347" duration="138000" />
-      <workItem from="1724936294375" duration="831000" />
-    </task>
-    <task id="LOCAL-00007" summary="To-do">
-      <option name="closed" value="true" />
-      <created>1723043366594</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1723043366594</updated>
+      <workItem from="1724936294375" duration="2061000" />
+      <workItem from="1724938784435" duration="770000" />
     </task>
     <task id="LOCAL-00008" summary="To-do">
       <option name="closed" value="true" />
@@ -634,7 +636,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724761806467</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="config">
+      <option name="closed" value="true" />
+      <created>1724937150173</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1724937150176</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
