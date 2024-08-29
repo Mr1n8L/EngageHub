@@ -1,7 +1,7 @@
 type Appointment {
     id: ID!
     customerName: String!
-    serviceName: String!  # Changed from serviceType to serviceName
+    serviceName: String!
     appointmentDateTime: String!
     status: String!
 }
@@ -9,11 +9,11 @@ type Appointment {
 type Query {
     appointments: [Appointment]!
     appointment(id: ID!): Appointment
-    searchAppointments(customerName: String, serviceName: String): [Appointment]  # Aligned with DGS/resolver
+    searchAppointments(customerName: String, serviceName: String): [Appointment]
 }
 
 type Mutation {
-    addAppointment(customerName: String!, serviceName: String!, appointmentDateTime: String!): Appointment  # Changed from serviceType to serviceName
-    updateAppointment(id: ID!, customerName: String, serviceName: String, appointmentDateTime: String, status: String!): Appointment  # Added fields to match DGS/resolver
+    addAppointment(customerName: String!, serviceName: String!, appointmentDateTime: String!): Appointment
+    updateAppointment(id: ID!, customerName: String, serviceName: String, appointmentDateTime: String, status: String!): Appointment
     deleteAppointment(id: ID!): Boolean
 }

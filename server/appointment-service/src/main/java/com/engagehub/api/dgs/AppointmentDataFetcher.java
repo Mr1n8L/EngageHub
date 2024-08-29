@@ -2,6 +2,7 @@
 package com.engagehub.api.dgs;
 import com.engagehub.api.model.Appointment;
 import com.engagehub.api.repository.AppointmentRepository;
+import com.engagehub.api.service.AppointmentService;
 import com.netflix.graphql.dgs.DgsComponent;
 import com.netflix.graphql.dgs.DgsMutation;
 import com.netflix.graphql.dgs.DgsQuery;
@@ -15,30 +16,34 @@ import java.util.Optional;
 @DgsComponent
 public class AppointmentDataFetcher {
 
-    private final AppointmentRepository appointmentRepository;
+    private final AppointmentService appointmentService;
 
-    public AppointmentDataFetcher(AppointmentRepository appointmentRepository) {
-        this.appointmentRepository = appointmentRepository;
+    public AppointmentDataFetcher(AppointmentService appointmentService) {
+        this.appointmentService = appointmentService;
     }
 
     @DgsQuery
     public List<Appointment> appointments() {
-        return appointmentRepository.findAll();
+        return appointmentService.getAllAppointments();
     }
 
     @DgsQuery
-    public Optional<Appointment> appointmentById(@InputArgument String id) {  // Changed from Long to String
-        Long appointmentId = Long.parseLong(id); // Convert String id to Long
-        return appointmentRepository.findById(appointmentId);
+    public Appointment appointment(@InputArgument String id) {
+        Long appointmentId = Long.parseLong(id);
+        return appointmentService.getAppointmentById(appointmentId).orElse(null);
+    }
+
+    @DgsQuery
+    public List<Appointment> searchAppointments(@InputArgument String customerName, @InputArgument String serviceName) {
+        return appointmentService.searchAppointments(customerName, serviceName);
     }
 
     @DgsMutation
     public Appointment addAppointment(@InputArgument String customerName,
                                       @InputArgument String serviceName,
-                                      @InputArgument String appointmentDateTime) {  // Changed LocalDateTime to String
+                                      @InputArgument String appointmentDateTime) {
         LocalDateTime dateTime = LocalDateTime.parse(appointmentDateTime, DateTimeFormatter.ISO_DATE_TIME);
-        Appointment appointment = new Appointment(null, customerName, serviceName, dateTime, "BOOKED");
-        return appointmentRepository.save(appointment);
+        return appointmentService.addAppointment(customerName, serviceName, dateTime);
     }
 
     @DgsMutation
@@ -46,24 +51,16 @@ public class AppointmentDataFetcher {
                                          @InputArgument String customerName,
                                          @InputArgument String serviceName,
                                          @InputArgument String appointmentDateTime,
-                                         @InputArgument String status) {  // Added status to match the mutation schema
-
-        Long appointmentId = Long.parseLong(id); // Convert String id to Long
+                                         @InputArgument String status) {
+        Long appointmentId = Long.parseLong(id);
         LocalDateTime dateTime = LocalDateTime.parse(appointmentDateTime, DateTimeFormatter.ISO_DATE_TIME);
-
-        return appointmentRepository.findById(appointmentId).map(existingAppointment -> {
-            existingAppointment.setCustomerName(customerName);
-            existingAppointment.setServiceName(serviceName);
-            existingAppointment.setAppointmentDateTime(dateTime);
-            existingAppointment.setStatus(status);
-            return appointmentRepository.save(existingAppointment);
-        }).orElseThrow(() -> new RuntimeException("Appointment not found"));
+        return appointmentService.updateAppointment(appointmentId, customerName, serviceName, dateTime, status);
     }
 
     @DgsMutation
-    public Boolean deleteAppointment(@InputArgument String id) {  // Changed from Long to String
-        Long appointmentId = Long.parseLong(id); // Convert String id to Long
-        appointmentRepository.deleteById(appointmentId);
+    public Boolean deleteAppointment(@InputArgument String id) {
+        Long appointmentId = Long.parseLong(id);
+        appointmentService.deleteAppointment(appointmentId);
         return true;
     }
 }
