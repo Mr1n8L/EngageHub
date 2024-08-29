@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="config">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -237,14 +238,9 @@
       <workItem from="1724484929362" duration="2626000" />
       <workItem from="1724591338160" duration="763000" />
       <workItem from="1724761209327" duration="33000" />
-    </task>
-    <task id="LOCAL-00006" summary="To-do">
-      <option name="closed" value="true" />
-      <created>1723043309060</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1723043309060</updated>
+      <workItem from="1724933128893" duration="41000" />
+      <workItem from="1724936101347" duration="138000" />
+      <workItem from="1724936294375" duration="831000" />
     </task>
     <task id="LOCAL-00007" summary="To-do">
       <option name="closed" value="true" />
@@ -630,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724761230445</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="config">
+      <option name="closed" value="true" />
+      <created>1724761806467</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1724761806467</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
