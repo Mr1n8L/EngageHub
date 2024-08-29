@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Review-service config">
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Buisness-service config">
+      <change afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/model/Business.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/BusinessServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/BusinessServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/dgs/businessDataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/dgs/BusinessDataFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/dgs/businessMutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/model/business.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/repository/businessRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/repository/BusinessRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/service/BuisnessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/service/BuisnessService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/resources/schemas/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/resources/schemas/schema.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/dgs/CustomerDataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/dgs/CustomerDataFetcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/model/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/repository/CustomerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/resolver/CustomerResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/src/main/resources/schema/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/server/customer-service/src/main/resources/schema/schema.graphqls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,15 +258,7 @@
       <workItem from="1724933128893" duration="41000" />
       <workItem from="1724936101347" duration="138000" />
       <workItem from="1724936294375" duration="2061000" />
-      <workItem from="1724938784435" duration="1351000" />
-    </task>
-    <task id="LOCAL-00010" summary="To-do">
-      <option name="closed" value="true" />
-      <created>1723043685426</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1723043685426</updated>
+      <workItem from="1724938784435" duration="1691000" />
     </task>
     <task id="LOCAL-00011" summary="To-do">
       <option name="closed" value="true" />
@@ -639,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724940027341</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Buisness-service config">
+      <option name="closed" value="true" />
+      <created>1724940475339</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1724940475339</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,7 +696,8 @@
     <MESSAGE value="sdk config" />
     <MESSAGE value="config" />
     <MESSAGE value="Review-service config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Review-service config" />
+    <MESSAGE value="Buisness-service config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buisness-service config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
