@@ -1,46 +1,19 @@
 type Appointment {
     id: ID!
+    customerName: String!
     serviceName: String!
     appointmentDateTime: String!
-    customerName: String!
-    customerEmail: String!
-    customerPhoneNumber: String!
     status: String!
-    notes: String
 }
 
 type Query {
     appointments: [Appointment]!
     appointment(id: ID!): Appointment
-    searchAppointments(
-        customerName: String,
-        startDateTime: String,
-        endDateTime: String,
-        status: String
-    ): [Appointment]
+    searchAppointments(customerName: String, serviceName: String): [Appointment]
 }
 
 type Mutation {
-    addAppointment(
-        serviceName: String!,
-        appointmentDateTime: String!,
-        customerName: String!,
-        customerEmail: String!,
-        customerPhoneNumber: String!,
-        status: String!,
-        notes: String
-    ): Appointment
-
-    updateAppointment(
-        id: ID!,
-        serviceName: String!,
-        appointmentDateTime: String!,
-        customerName: String!,
-        customerEmail: String!,
-        customerPhoneNumber: String!,
-        status: String!,
-        notes: String
-    ): Appointment
-
+    addAppointment(customerName: String!, serviceName: String!, appointmentDateTime: String!): Appointment
+    updateAppointment(id: ID!, customerName: String, serviceName: String, appointmentDateTime: String, status: String!): Appointment
     deleteAppointment(id: ID!): Boolean
 }

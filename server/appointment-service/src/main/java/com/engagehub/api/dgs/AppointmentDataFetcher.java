@@ -1,14 +1,15 @@
-package com.engagehub.api.dgs;
 
+package com.engagehub.api.dgs;
 import com.engagehub.api.model.Appointment;
+import com.engagehub.api.repository.AppointmentRepository;
 import com.engagehub.api.service.AppointmentService;
 import com.netflix.graphql.dgs.DgsComponent;
-import com.netflix.graphql.dgs.DgsData;
 import com.netflix.graphql.dgs.DgsMutation;
 import com.netflix.graphql.dgs.DgsQuery;
 import com.netflix.graphql.dgs.InputArgument;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Optional;
 
@@ -23,51 +24,43 @@ public class AppointmentDataFetcher {
 
     @DgsQuery
     public List<Appointment> appointments() {
-        return appointmentService.findAllAppointments();
+        return appointmentService.getAllAppointments();
     }
 
     @DgsQuery
-    public Optional<Appointment> appointmentById(@InputArgument Long id) {
-        return appointmentService.findAppointmentById(id);
+    public Appointment appointment(@InputArgument String id) {
+        Long appointmentId = Long.parseLong(id);
+        return appointmentService.getAppointmentById(appointmentId).orElse(null);
     }
 
     @DgsQuery
-    public List<Appointment> searchAppointments(
-            @InputArgument String customerName,
-            @InputArgument LocalDateTime startDateTime,
-            @InputArgument LocalDateTime endDateTime,
-            @InputArgument String status) {
-        return appointmentService.searchAppointments(customerName, startDateTime, endDateTime, status);
+    public List<Appointment> searchAppointments(@InputArgument String customerName, @InputArgument String serviceName) {
+        return appointmentService.searchAppointments(customerName, serviceName);
     }
 
     @DgsMutation
-    public Appointment addAppointment(@InputArgument String serviceName,
-                                      @InputArgument LocalDateTime appointmentDateTime,
-                                      @InputArgument String customerName,
-                                      @InputArgument String customerEmail,
-                                      @InputArgument String customerPhoneNumber,
-                                      @InputArgument String status,
-                                      @InputArgument String notes) {
-        Appointment appointment = new Appointment(null, serviceName, appointmentDateTime, customerName, customerEmail, customerPhoneNumber, status, notes);
-        return appointmentService.saveAppointment(appointment);
+    public Appointment addAppointment(@InputArgument String customerName,
+                                      @InputArgument String serviceName,
+                                      @InputArgument String appointmentDateTime) {
+        LocalDateTime dateTime = LocalDateTime.parse(appointmentDateTime, DateTimeFormatter.ISO_DATE_TIME);
+        return appointmentService.addAppointment(customerName, serviceName, dateTime);
     }
 
     @DgsMutation
-    public Appointment updateAppointment(@InputArgument Long id,
-                                         @InputArgument String serviceName,
-                                         @InputArgument LocalDateTime appointmentDateTime,
+    public Appointment updateAppointment(@InputArgument String id,
                                          @InputArgument String customerName,
-                                         @InputArgument String customerEmail,
-                                         @InputArgument String customerPhoneNumber,
-                                         @InputArgument String status,
-                                         @InputArgument String notes) {
-        Appointment appointmentDetails = new Appointment(null, serviceName, appointmentDateTime, customerName, customerEmail, customerPhoneNumber, status, notes);
-        return appointmentService.updateAppointment(id, appointmentDetails);
+                                         @InputArgument String serviceName,
+                                         @InputArgument String appointmentDateTime,
+                                         @InputArgument String status) {
+        Long appointmentId = Long.parseLong(id);
+        LocalDateTime dateTime = LocalDateTime.parse(appointmentDateTime, DateTimeFormatter.ISO_DATE_TIME);
+        return appointmentService.updateAppointment(appointmentId, customerName, serviceName, dateTime, status);
     }
 
     @DgsMutation
-    public Boolean deleteAppointment(@InputArgument Long id) {
-        appointmentService.deleteAppointment(id);
+    public Boolean deleteAppointment(@InputArgument String id) {
+        Long appointmentId = Long.parseLong(id);
+        appointmentService.deleteAppointment(appointmentId);
         return true;
     }
 }
