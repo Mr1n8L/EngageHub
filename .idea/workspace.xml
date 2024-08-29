@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="To-do" />
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="config">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,12 +46,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/server" value="customer-service-enhancement" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -74,27 +79,24 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Build EngageHub-new.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReviewServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.engagehub [clean build].executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;apointment&quot;,
+    &quot;Spring Boot.ReviewServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ishit/IdeaProjects/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mr1n8l/Documents/IdeaProjects/EngageHub/server/review-service&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.39073634&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -138,6 +140,19 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="engagehub" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="engagehub" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BusinessServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="engagehub.business-service.main" />
@@ -158,7 +173,7 @@
     </configuration>
     <configuration name="ReviewServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="engagehub.review-service.main" />
+      <module name="engagehub.review-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.engagehub.api.ReviewServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,7 +181,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.engagehub [clean build]" />
+      <item itemvalue="Spring Boot.BusinessServiceApplication" />
+      <item itemvalue="Spring Boot.CustomerServiceApplication" />
+      <item itemvalue="Spring Boot.ReviewServiceApplication" />
     </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -196,54 +222,25 @@
       <workItem from="1723122284773" duration="143000" />
       <workItem from="1723222319696" duration="118000" />
       <workItem from="1723310046706" duration="3933000" />
-    </task>
-    <task id="LOCAL-00001" summary="Project structure modification">
-      <option name="closed" value="true" />
-      <created>1722845097100</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1722845097101</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Project structure modification">
-      <option name="closed" value="true" />
-      <created>1722850154246</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1722850154247</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Project structure modification">
-      <option name="closed" value="true" />
-      <created>1723019667132</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1723019667132</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Project structure modification">
-      <option name="closed" value="true" />
-      <created>1723042875437</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1723042875437</updated>
-    </task>
-    <task id="LOCAL-00005" summary="To-do">
-      <option name="closed" value="true" />
-      <created>1723042979882</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1723042979882</updated>
-    </task>
-    <task id="LOCAL-00006" summary="To-do">
-      <option name="closed" value="true" />
-      <created>1723043309060</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1723043309060</updated>
+      <workItem from="1723383543209" duration="9712000" />
+      <workItem from="1723555928970" duration="5410000" />
+      <workItem from="1723744077993" duration="234000" />
+      <workItem from="1723745767296" duration="568000" />
+      <workItem from="1723904716989" duration="4664000" />
+      <workItem from="1724041227516" duration="1087000" />
+      <workItem from="1724053952972" duration="36000" />
+      <workItem from="1724058622799" duration="1334000" />
+      <workItem from="1724168671503" duration="582000" />
+      <workItem from="1724245421035" duration="620000" />
+      <workItem from="1724264160599" duration="1025000" />
+      <workItem from="1724344957030" duration="638000" />
+      <workItem from="1724429729079" duration="29000" />
+      <workItem from="1724484929362" duration="2626000" />
+      <workItem from="1724591338160" duration="763000" />
+      <workItem from="1724761209327" duration="33000" />
+      <workItem from="1724933128893" duration="41000" />
+      <workItem from="1724936101347" duration="138000" />
+      <workItem from="1724936294375" duration="831000" />
     </task>
     <task id="LOCAL-00007" summary="To-do">
       <option name="closed" value="true" />
@@ -309,7 +306,335 @@
       <option name="project" value="LOCAL" />
       <updated>1723313737916</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="To-do">
+      <option name="closed" value="true" />
+      <created>1723383606274</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723383606274</updated>
+    </task>
+    <task id="LOCAL-00016" summary="To-do">
+      <option name="closed" value="true" />
+      <created>1723383638685</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723383638685</updated>
+    </task>
+    <task id="LOCAL-00017" summary="To-do">
+      <option name="closed" value="true" />
+      <created>1723385149559</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723385149559</updated>
+    </task>
+    <task id="LOCAL-00018" summary="To-do">
+      <option name="closed" value="true" />
+      <created>1723385649106</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723385649106</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723385842881</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723385842881</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723385876775</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723385876775</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723387717064</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723387717064</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723387957748</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723387957748</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723388752968</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723388752968</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723390182776</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723390182776</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723415972560</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723415972560</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723555979695</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723555979695</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723558033594</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723558033594</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723558125155</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723558125155</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1723562005169</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1723562005169</updated>
+    </task>
+    <task id="LOCAL-00030" summary="readme">
+      <option name="closed" value="true" />
+      <created>1723746154926</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1723746154926</updated>
+    </task>
+    <task id="LOCAL-00031" summary="readme">
+      <option name="closed" value="true" />
+      <created>1723746230286</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1723746230286</updated>
+    </task>
+    <task id="LOCAL-00032" summary="authentication config">
+      <option name="closed" value="true" />
+      <created>1723908536587</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1723908536587</updated>
+    </task>
+    <task id="LOCAL-00033" summary="authentication config">
+      <option name="closed" value="true" />
+      <created>1723908572721</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1723908572721</updated>
+    </task>
+    <task id="LOCAL-00034" summary="authentication config">
+      <option name="closed" value="true" />
+      <created>1723909785826</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1723909785826</updated>
+    </task>
+    <task id="LOCAL-00035" summary="authentication config">
+      <option name="closed" value="true" />
+      <created>1724041627478</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1724041627478</updated>
+    </task>
+    <task id="LOCAL-00036" summary="authentication config">
+      <option name="closed" value="true" />
+      <created>1724041681101</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1724041681101</updated>
+    </task>
+    <task id="LOCAL-00037" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724041870540</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1724041870540</updated>
+    </task>
+    <task id="LOCAL-00038" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724041892347</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1724041892347</updated>
+    </task>
+    <task id="LOCAL-00039" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724042314145</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1724042314145</updated>
+    </task>
+    <task id="LOCAL-00040" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724053194150</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1724053194150</updated>
+    </task>
+    <task id="LOCAL-00041" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724053219728</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1724053219728</updated>
+    </task>
+    <task id="LOCAL-00042" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724053970961</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1724053970961</updated>
+    </task>
+    <task id="LOCAL-00043" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724058835083</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1724058835083</updated>
+    </task>
+    <task id="LOCAL-00044" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724059376783</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1724059376783</updated>
+    </task>
+    <task id="LOCAL-00045" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724059866915</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1724059866915</updated>
+    </task>
+    <task id="LOCAL-00046" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724059945611</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1724059945611</updated>
+    </task>
+    <task id="LOCAL-00047" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724169168185</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1724169168185</updated>
+    </task>
+    <task id="LOCAL-00048" summary="microservices config">
+      <option name="closed" value="true" />
+      <created>1724245470091</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1724245470091</updated>
+    </task>
+    <task id="LOCAL-00049" summary="sdk config">
+      <option name="closed" value="true" />
+      <created>1724265170719</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1724265170719</updated>
+    </task>
+    <task id="LOCAL-00050" summary="sdk config">
+      <option name="closed" value="true" />
+      <created>1724345852601</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1724345852601</updated>
+    </task>
+    <task id="LOCAL-00051" summary="sdk config">
+      <option name="closed" value="true" />
+      <created>1724345872905</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1724345872905</updated>
+    </task>
+    <task id="LOCAL-00052" summary="sdk config">
+      <option name="closed" value="true" />
+      <created>1724429739756</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1724429739756</updated>
+    </task>
+    <task id="LOCAL-00053" summary="config">
+      <option name="closed" value="true" />
+      <created>1724484973786</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1724484973787</updated>
+    </task>
+    <task id="LOCAL-00054" summary="config">
+      <option name="closed" value="true" />
+      <created>1724761230444</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1724761230445</updated>
+    </task>
+    <task id="LOCAL-00055" summary="config">
+      <option name="closed" value="true" />
+      <created>1724761806467</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1724761806467</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +670,17 @@
     </ignored-roots>
     <MESSAGE value="Project structure modification" />
     <MESSAGE value="To-do" />
-    <option name="LAST_COMMIT_MESSAGE" value="To-do" />
+    <MESSAGE value="Docker config" />
+    <MESSAGE value="Git ignore config" />
+    <MESSAGE value="readme" />
+    <MESSAGE value="authentication config" />
+    <MESSAGE value="microservices config" />
+    <MESSAGE value="sdk config" />
+    <MESSAGE value="config" />
+    <option name="LAST_COMMIT_MESSAGE" value="config" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
