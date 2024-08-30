@@ -4,9 +4,165 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Buisness-service config">
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="build.gradle config">
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/8.8/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/8.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/8.8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/CustomerServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$CUSTOMER.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$ADDCUSTOMER_INPUT_ARGUMENT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$DELETECUSTOMER_INPUT_ARGUMENT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$UPDATECUSTOMER_INPUT_ARGUMENT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY$CUSTOMERBYID_INPUT_ARGUMENT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY$SEARCHCUSTOMERS_INPUT_ARGUMENT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerProjectionRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerByIdGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerByIdGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerByIdProjectionRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersProjectionRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/SearchCustomersGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/SearchCustomersGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/SearchCustomersProjectionRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerProjectionRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/types/Customer$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/types/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/dgs/CustomerDataFetcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/repository/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/CustomerByIdDatafetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/CustomersDatafetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/SearchCustomersDatafetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/DgsConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/AddCustomerProjectionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomerByIdGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomerByIdProjectionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomersGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomersProjectionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/SearchCustomersGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/SearchCustomersProjectionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/UpdateCustomerProjectionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/types/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/libs/customer-service-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/libs/customer-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/resolvedMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/resources/main/schema/schema.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/authentication-service/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/8.8/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/8.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/8.8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/business-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/8.8/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/8.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/8.8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/CustomerServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$CUSTOMER.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$ADDCUSTOMER_INPUT_ARGUMENT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$DELETECUSTOMER_INPUT_ARGUMENT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$UPDATECUSTOMER_INPUT_ARGUMENT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY$CUSTOMERBYID_INPUT_ARGUMENT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY$SEARCHCUSTOMERS_INPUT_ARGUMENT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerProjectionRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerByIdGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerByIdGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerByIdProjectionRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersProjectionRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/SearchCustomersGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/SearchCustomersGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/SearchCustomersProjectionRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerProjectionRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/types/Customer$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/types/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/dgs/CustomerDataFetcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/repository/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/CustomerByIdDatafetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/CustomersDatafetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/SearchCustomersDatafetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/DgsConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/AddCustomerProjectionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomerByIdGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomerByIdProjectionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomersGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomersProjectionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/SearchCustomersGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/SearchCustomersProjectionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/UpdateCustomerProjectionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/types/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/libs/customer-service-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/libs/customer-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/resolvedMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/resources/main/schema/schema.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/review-service/build/tmp/jar/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/authentication-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/customer-service/.gradle/vcs-1/gc.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -247,15 +403,7 @@
       <workItem from="1724938784435" duration="2651000" />
       <workItem from="1724945842361" duration="1262000" />
       <workItem from="1725028053583" duration="35000" />
-      <workItem from="1725028106135" duration="1779000" />
-    </task>
-    <task id="LOCAL-00014" summary="To-do">
-      <option name="closed" value="true" />
-      <created>1723313737916</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1723313737916</updated>
+      <workItem from="1725028106135" duration="2085000" />
     </task>
     <task id="LOCAL-00015" summary="To-do">
       <option name="closed" value="true" />
@@ -641,7 +789,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725029321034</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="build.gradle config">
+      <option name="closed" value="true" />
+      <created>1725030160050</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1725030160050</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +842,8 @@
     <MESSAGE value="config" />
     <MESSAGE value="Review-service config" />
     <MESSAGE value="Buisness-service config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Buisness-service config" />
+    <MESSAGE value="build.gradle config" />
+    <option name="LAST_COMMIT_MESSAGE" value="build.gradle config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
