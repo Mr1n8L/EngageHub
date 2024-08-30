@@ -19,7 +19,7 @@ services:
       context: ./customer-service
       dockerfile: Dockerfile
     ports:
-      - "9192:9191"  # Map to a different host port to avoid conflict
+      - "9192:9192"  # Map to a different host port to avoid conflict
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/mydatabase
       - SPRING_DATASOURCE_USERNAME=myuser
@@ -39,6 +39,32 @@ services:
       - SPRING_DATASOURCE_PASSWORD=secret
     depends_on:
       - db
+
+  authentication-service:
+    build:
+      context: ./appointment-service
+      dockerfile: Dockerfile
+    ports:
+      - "9191:9191"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/mydatabase
+      - SPRING_DATASOURCE_USERNAME=myuser
+      - SPRING_DATASOURCE_PASSWORD=secret
+    depends_on:
+      - db
+  business-service:
+    build:
+      context: ./appointment-service
+      dockerfile: Dockerfile
+    ports:
+      - "9191:9191"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/mydatabase
+      - SPRING_DATASOURCE_USERNAME=myuser
+      - SPRING_DATASOURCE_PASSWORD=secret
+    depends_on:
+      - db
+
 
   db:
     image: postgres:13
