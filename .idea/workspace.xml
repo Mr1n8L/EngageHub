@@ -7,8 +7,11 @@
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Buisness-service config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/model/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/model/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/BusinessServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/BusinessServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/dgs/BusinessDataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/dgs/BusinessDataFetcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/model/Business.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/model/Business.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/repository/BusinessRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/repository/BusinessRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/resources/schemas/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/resources/schemas/schema.graphql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,15 +251,7 @@
       <workItem from="1724938784435" duration="2651000" />
       <workItem from="1724945842361" duration="1262000" />
       <workItem from="1725028053583" duration="35000" />
-      <workItem from="1725028106135" duration="796000" />
-    </task>
-    <task id="LOCAL-00012" summary="To-do">
-      <option name="closed" value="true" />
-      <created>1723222379930</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1723222379930</updated>
+      <workItem from="1725028106135" duration="1203000" />
     </task>
     <task id="LOCAL-00013" summary="To-do">
       <option name="closed" value="true" />
@@ -642,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724940486956</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Buisness-service config">
+      <option name="closed" value="true" />
+      <created>1725029308283</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1725029308285</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
