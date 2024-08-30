@@ -10,7 +10,7 @@ version = '0.0.1-SNAPSHOT'
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)
+		languageVersion = JavaLanguageVersion.of(21)
 	}
 }
 
@@ -47,11 +47,8 @@ dependencyManagement {
 }
 
 generateJava {
-	schemaPaths = ["${projectDir}/src/main/resources/graphql-client"]
+	schemaPaths = ["${projectDir}/src/main/resources/schema"]
 	packageName = 'com.engagehub.api.codegen'
 	generateClient = true
 }
 
-tasks.named('test') {
-	useJUnitPlatform()
-}
