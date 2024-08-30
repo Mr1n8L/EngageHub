@@ -1,58 +1,48 @@
-package com.engagehub.api.business.dgs;
+package com.engagehub.api.dgs;
 
-import com.engagehub.api.business.model.Business;
-import com.engagehub.api.business.service.BusinessService;
+import com.engagehub.api.model.Business;
+import com.engagehub.api.service.BusinessService;
 import com.netflix.graphql.dgs.DgsComponent;
-import com.netflix.graphql.dgs.DgsData;
+import com.netflix.graphql.dgs.DgsMutation;
+import com.netflix.graphql.dgs.DgsQuery;
 import com.netflix.graphql.dgs.InputArgument;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
+import java.util.Optional;
 
 @DgsComponent
 public class BusinessDataFetcher {
 
     private final BusinessService businessService;
 
+    @Autowired
     public BusinessDataFetcher(BusinessService businessService) {
         this.businessService = businessService;
     }
 
-    @DgsData(parentType = "Query", field = "businesses")
-    public List<Business> getBusinesses() {
+    @DgsQuery
+    public List<Business> businesses() {
         return businessService.getAllBusinesses();
     }
 
-    @DgsData(parentType = "Query", field = "business")
-    public Business getBusiness(@InputArgument Long id) {
-        return businessService.getBusinessById(id).orElse(null);
+    @DgsQuery
+    public Optional<Business> business(@InputArgument Long id) {
+        return businessService.getBusinessById(id);
     }
 
-    @DgsData(parentType = "Mutation", field = "addBusiness")
-    public Business addBusiness(@InputArgument String name, @InputArgument String address,
-                                @InputArgument String type, @InputArgument String contactInfo) {
-        Business business = new Business();
-        business.setName(name);
-        business.setAddress(address);
-        business.setType(type);
-        business.setContactInfo(contactInfo);
-        return businessService.addBusiness(business);
+    @DgsMutation
+    public Business addBusiness(@InputArgument String name, @InputArgument String address, @InputArgument String type, @InputArgument String contactInformation) {
+        return businessService.addBusiness(name, address, type, contactInformation);
     }
 
-    @DgsData(parentType = "Mutation", field = "updateBusiness")
-    public Business updateBusiness(@InputArgument Long id, @InputArgument String name,
-                                   @InputArgument String address, @InputArgument String type,
-                                   @InputArgument String contactInfo) {
-        Business updatedBusiness = new Business();
-        updatedBusiness.setName(name);
-        updatedBusiness.setAddress(address);
-        updatedBusiness.setType(type);
-        updatedBusiness.setContactInfo(contactInfo);
-        return businessService.updateBusiness(id, updatedBusiness);
+    @DgsMutation
+    public Business updateBusiness(@InputArgument Long id, @InputArgument String name, @InputArgument String address, @InputArgument String type, @InputArgument String contactInformation) {
+        return businessService.updateBusiness(id, name, address, type, contactInformation);
     }
 
-    @DgsData(parentType = "Mutation", field = "deleteBusiness")
-    public Boolean deleteBusiness(@InputArgument Long id) {
-        businessService.deleteBusiness(id);
-        return true;
+    @DgsMutation
+    public boolean deleteBusiness(@InputArgument Long id) {
+        return businessService.deleteBusiness(id);
     }
 }

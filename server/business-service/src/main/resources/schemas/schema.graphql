@@ -1,18 +1,18 @@
+type Business {
+    id: ID
+    name: String
+    address: String
+    type: String
+    contactInformation: String
+}
+
 type Query {
-    businesses: [Business!]!
-    business(id: ID!): Business
+    businesses: [Business]
+    business(id: ID): Business
 }
 
 type Mutation {
-    addBusiness(name: String!, address: String!, type: String!, contactInfo: String!): Business!
-    updateBusiness(id: ID!, name: String, address: String, type: String, contactInfo: String): Business!
-    deleteBusiness(id: ID!): Boolean!
-}
-
-type Business {
-    id: ID!
-    name: String!
-    address: String!
-    type: String!
-    contactInfo: String!
+    addBusiness(name: String, address: String, type: String, contactInformation: String): Business
+    updateBusiness(id: ID, name: String, address: String, type: String, contactInformation: String): Business
+    deleteBusiness(id: ID): Boolean
 }

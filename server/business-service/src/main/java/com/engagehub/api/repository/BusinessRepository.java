@@ -1,7 +1,9 @@
-package com.engagehub.api.business.repository;
+package com.engagehub.api.repository;
 
-import com.engagehub.api.business.model.Business;
+import com.engagehub.api.model.Business;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface BusinessRepository extends JpaRepository<Business, Long> {
 }
