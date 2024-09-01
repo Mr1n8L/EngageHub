@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="build.gradle config">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/appointment-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/appointment-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/authentication-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/business-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/resources/schemas/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/resources/schema/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/customer-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/server/customer-service/Dockerfile" afterDir="false" />
-    </list>
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Docker config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,23 +246,7 @@
       <workItem from="1724938784435" duration="2651000" />
       <workItem from="1724945842361" duration="1262000" />
       <workItem from="1725028053583" duration="35000" />
-      <workItem from="1725028106135" duration="2914000" />
-    </task>
-    <task id="LOCAL-00016" summary="To-do">
-      <option name="closed" value="true" />
-      <created>1723383638685</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1723383638685</updated>
-    </task>
-    <task id="LOCAL-00017" summary="To-do">
-      <option name="closed" value="true" />
-      <created>1723385149559</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1723385149559</updated>
+      <workItem from="1725028106135" duration="3650000" />
     </task>
     <task id="LOCAL-00018" summary="To-do">
       <option name="closed" value="true" />
@@ -649,7 +624,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725030268002</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1725031088895</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1725031088895</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Docker config">
+      <option name="closed" value="true" />
+      <created>1725031112999</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1725031112999</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +676,6 @@
     </ignored-roots>
     <MESSAGE value="Project structure modification" />
     <MESSAGE value="To-do" />
-    <MESSAGE value="Docker config" />
     <MESSAGE value="Git ignore config" />
     <MESSAGE value="readme" />
     <MESSAGE value="authentication config" />
@@ -695,7 +685,8 @@
     <MESSAGE value="Review-service config" />
     <MESSAGE value="Buisness-service config" />
     <MESSAGE value="build.gradle config" />
-    <option name="LAST_COMMIT_MESSAGE" value="build.gradle config" />
+    <MESSAGE value="Docker config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
