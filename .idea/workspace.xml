@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Docker config" />
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Docker config">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/service-discovery/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/service-discovery/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/service-discovery/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/service-discovery/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/service-discovery/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/service-discovery/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/service-discovery/src/main/java/com/engagehub/api/ServiceDiscoveryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/service-discovery/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +109,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.39073634&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -247,6 +258,8 @@
       <workItem from="1724945842361" duration="1262000" />
       <workItem from="1725028053583" duration="35000" />
       <workItem from="1725028106135" duration="3650000" />
+      <workItem from="1725260930873" duration="340000" />
+      <workItem from="1725261283033" duration="1214000" />
     </task>
     <task id="LOCAL-00018" summary="To-do">
       <option name="closed" value="true" />
