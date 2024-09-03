@@ -3,8 +3,8 @@ spring:
     name: service-discovery
   datasource:
     url: jdbc:postgresql://localhost:5432/mydatabase
-    username: myuser
-    password: secret
+    username: postgres
+    password: root
     driver-class-name: org.postgresql.Driver
   jpa:
     properties:
