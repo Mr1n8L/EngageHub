@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Docker config">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service-discovery/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service-discovery/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service-discovery/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service-discovery/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service-discovery/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service-discovery/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service-discovery/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service-discovery/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service-discovery/src/main/java/com/engagehub/api/ServiceDiscoveryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/service-discovery/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="Service-discovery config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,15 +248,8 @@
       <workItem from="1725028053583" duration="35000" />
       <workItem from="1725028106135" duration="3650000" />
       <workItem from="1725260930873" duration="340000" />
-      <workItem from="1725261283033" duration="1608000" />
-    </task>
-    <task id="LOCAL-00019" summary="Docker config">
-      <option name="closed" value="true" />
-      <created>1723385842881</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1723385842881</updated>
+      <workItem from="1725261283033" duration="1706000" />
+      <workItem from="1725263241047" duration="3000" />
     </task>
     <task id="LOCAL-00020" summary="Docker config">
       <option name="closed" value="true" />
@@ -655,7 +635,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725262890938</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Service-discovery config">
+      <option name="closed" value="true" />
+      <created>1725262907567</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1725262907567</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -701,7 +689,8 @@
     <MESSAGE value="Buisness-service config" />
     <MESSAGE value="build.gradle config" />
     <MESSAGE value="Docker config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker config" />
+    <MESSAGE value="Service-discovery config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service-discovery config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
