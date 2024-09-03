@@ -3,8 +3,8 @@ spring:
     name: appointment-service
   datasource:
     url: jdbc:postgresql://localhost:5432/mydatabase
-    username: myuser
-    password: secret
+    username: myuser1
+    password: secret1
     driver-class-name: org.postgresql.Driver
   jpa:
     properties:
@@ -23,4 +23,4 @@ graphql:
     mapping: /graphql
 
 server:
-  port: 9191
+  port: 9192

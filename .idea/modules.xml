@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/review-service/engagehub.review-service.iml" filepath="$PROJECT_DIR$/.idea/modules/review-service/engagehub.review-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/appointment-service/engagehub.server.appointment-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/appointment-service/engagehub.server.appointment-service.main.iml" />
     </modules>
   </component>
 </project>

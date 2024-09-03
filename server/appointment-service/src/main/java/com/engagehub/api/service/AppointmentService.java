@@ -1,6 +1,6 @@
 package com.engagehub.api.service;
 
-import ccom.engagehub.api.model.Appointment;
+import com.engagehub.api.model.Appointment;
 import com.engagehub.api.repository.AppointmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
