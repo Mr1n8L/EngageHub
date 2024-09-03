@@ -3,8 +3,8 @@ spring:
     name: appointment-service
   datasource:
     url: jdbc:postgresql://localhost:5432/mydatabase
-    username: myuser1
-    password: secret1
+    username: postgres
+    password: root
     driver-class-name: org.postgresql.Driver
   jpa:
     properties:
