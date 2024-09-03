@@ -1,24 +1,11 @@
 spring:
   application:
     name: service-discovery
-  datasource:
-    url: jdbc:postgresql://localhost:5432/mydatabase
-    username: postgres
-    password: root
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-    hibernate:
-      ddl-auto: update
 
 eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-  server:
-    wait-time-in-ms-when-sync-empty: 0
 
 server:
   port: 8761
