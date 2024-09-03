@@ -23,4 +23,4 @@ graphql:
     mapping: /graphql
 
 server:
-  port: 9192
+  port: 9191

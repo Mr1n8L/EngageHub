@@ -25,7 +25,7 @@ WORKDIR /app
 COPY --from=build /workspace/app/build/libs/*.jar app.jar
 
 # Expose the port the app runs on
-EXPOSE 9191
+EXPOSE 9192
 
 # Run the jar file
 ENTRYPOINT ["java", "-jar", "app.jar"]
