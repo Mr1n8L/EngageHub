@@ -9,15 +9,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/appointment-service" />
-            <option value="$PROJECT_DIR$/auth-service" />
-            <option value="$PROJECT_DIR$/business-service" />
-            <option value="$PROJECT_DIR$/customer-service" />
-            <option value="$PROJECT_DIR$/payment-service" />
-            <option value="$PROJECT_DIR$/review-service" />
-            <option value="$PROJECT_DIR$/server" />
-            <option value="$PROJECT_DIR$/server/appointment-service" />
-            <option value="$PROJECT_DIR$/server/appointment-service/appointment-service" />
           </set>
         </option>
       </GradleProjectSettings>
