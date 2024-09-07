@@ -261,14 +261,7 @@
       <workItem from="1725459453797" duration="327000" />
       <workItem from="1725459793599" duration="1667000" />
       <workItem from="1725550106968" duration="221000" />
-    </task>
-    <task id="LOCAL-00029" summary="Docker config">
-      <option name="closed" value="true" />
-      <created>1723562005169</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1723562005169</updated>
+      <workItem from="1725720790842" duration="36000" />
     </task>
     <task id="LOCAL-00030" summary="readme">
       <option name="closed" value="true" />
@@ -654,7 +647,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725550190821</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="service discovery config">
+      <option name="closed" value="true" />
+      <created>1725720813194</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1725720813194</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
