@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="modules config">
-      <change afterPath="$PROJECT_DIR$/server/service-discovery/service-discovery.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="service discovery config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -265,22 +260,7 @@
       <workItem from="1725439136094" duration="635000" />
       <workItem from="1725459453797" duration="327000" />
       <workItem from="1725459793599" duration="1667000" />
-    </task>
-    <task id="LOCAL-00027" summary="Docker config">
-      <option name="closed" value="true" />
-      <created>1723558033594</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1723558033594</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Docker config">
-      <option name="closed" value="true" />
-      <created>1723558125155</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1723558125155</updated>
+      <workItem from="1725550106968" duration="221000" />
     </task>
     <task id="LOCAL-00029" summary="Docker config">
       <option name="closed" value="true" />
@@ -658,7 +638,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725460803250</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="service discovery config">
+      <option name="closed" value="true" />
+      <created>1725550157093</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1725550157093</updated>
+    </task>
+    <task id="LOCAL-00077" summary="service discovery config">
+      <option name="closed" value="true" />
+      <created>1725550190821</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1725550190821</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,7 +704,8 @@
     <MESSAGE value="application.yml config" />
     <MESSAGE value="service-discovery config" />
     <MESSAGE value="modules config" />
-    <option name="LAST_COMMIT_MESSAGE" value="modules config" />
+    <MESSAGE value="service discovery config" />
+    <option name="LAST_COMMIT_MESSAGE" value="service discovery config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
