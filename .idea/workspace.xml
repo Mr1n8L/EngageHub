@@ -262,14 +262,7 @@
       <workItem from="1725459793599" duration="1667000" />
       <workItem from="1725550106968" duration="221000" />
       <workItem from="1725720790842" duration="36000" />
-    </task>
-    <task id="LOCAL-00030" summary="readme">
-      <option name="closed" value="true" />
-      <created>1723746154926</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1723746154926</updated>
+      <workItem from="1725720848982" duration="35000" />
     </task>
     <task id="LOCAL-00031" summary="readme">
       <option name="closed" value="true" />
@@ -655,7 +648,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725720813194</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="service discovery config">
+      <option name="closed" value="true" />
+      <created>1725720874444</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1725720874445</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
