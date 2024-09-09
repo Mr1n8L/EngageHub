@@ -1,4 +1,4 @@
 rootProject.name = 'engagehub'
-include 'server:service-discovery:service-discovery'
-findProject(':server:service-discovery:service-discovery')?.name = 'service-discovery'
+include 'server:service-discovery'
+findProject(':server:service-discovery')?.name = 'service-discovery'
 

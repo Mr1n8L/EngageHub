@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="service discovery config">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +32,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="EngageHub" type="f1a62948:ProjectNode" />
+                <item name="engagehub" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -338,15 +341,7 @@
       <workItem from="1725878675476" duration="139000" />
       <workItem from="1725878822447" duration="370000" />
       <workItem from="1725879228253" duration="103000" />
-      <workItem from="1725879342625" duration="6770000" />
-    </task>
-    <task id="LOCAL-00039" summary="microservices config">
-      <option name="closed" value="true" />
-      <created>1724042314145</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1724042314145</updated>
+      <workItem from="1725879342625" duration="7446000" />
     </task>
     <task id="LOCAL-00040" summary="microservices config">
       <option name="closed" value="true" />
@@ -732,7 +727,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725906327888</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="service discovery config">
+      <option name="closed" value="true" />
+      <created>1725907588735</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1725907588736</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
