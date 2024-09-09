@@ -3,8 +3,8 @@ spring:
     name: appointment-service
   datasource:
     url: jdbc:postgresql://localhost:5432/mydatabase
-    username: postgres
-    password: root
+    username: myuser
+    password: secret
     driver-class-name: org.postgresql.Driver
   jpa:
     properties:
@@ -23,4 +23,11 @@ graphql:
     mapping: /graphql
 
 server:
-  port: 9191
+  port: 9191  # You can set a custom port for the service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  # Eureka server URL
+  instance:
+    prefer-ip-address: true  # Use the IP address for registration
