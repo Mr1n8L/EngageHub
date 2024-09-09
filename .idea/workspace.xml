@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="service discovery config" />
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="service discovery config">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/service-discovery.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/src/main/java/com/engagehub/api/ServiceDiscoveryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/src/main/resources/application.yml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -263,14 +280,8 @@
       <workItem from="1725550106968" duration="221000" />
       <workItem from="1725720790842" duration="36000" />
       <workItem from="1725720848982" duration="35000" />
-    </task>
-    <task id="LOCAL-00031" summary="readme">
-      <option name="closed" value="true" />
-      <created>1723746230286</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1723746230286</updated>
+      <workItem from="1725819157022" duration="35000" />
+      <workItem from="1725865984349" duration="765000" />
     </task>
     <task id="LOCAL-00032" summary="authentication config">
       <option name="closed" value="true" />
@@ -656,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725720874445</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="service discovery config">
+      <option name="closed" value="true" />
+      <created>1725819168681</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1725819168682</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
