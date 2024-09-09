@@ -9,6 +9,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/server" />
+            <option value="$PROJECT_DIR$/server/service-discovery" />
+            <option value="$PROJECT_DIR$/server/service-discovery/service-discovery" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="service discovery config">
+      <change afterPath="$PROJECT_DIR$/server/service-discovery/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/service-discovery/src/main/java/com/engagehub/api/ServiceDiscoveryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/service-discovery/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/src/main/java/com/engagehub/api/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/service-discovery/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,37 +88,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ReviewServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build EngageHub.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EngageHub:server [clean build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.engagehub [clean build].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AppointmentServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ReviewServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mr1n8l/Documents/IdeaProjects/EngageHub/server/service-discovery&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.39073634&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ReviewServiceApplication.executor": "Run",
+    "Gradle.Build EngageHub.executor": "Run",
+    "Gradle.EngageHub:server [clean build].executor": "Run",
+    "Gradle.engagehub [clean build].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AppointmentServiceApplication.executor": "Run",
+    "Spring Boot.ReviewServiceApplication.executor": "Run",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/mr1n8l/Documents/IdeaProjects/EngageHub",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.39073634",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server" />
@@ -129,7 +136,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.EngageHub:server [clean build]">
+  <component name="RunManager" selected="Spring Boot.ServiceDiscoveryApplication">
     <configuration name="EngageHub:server [clean build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -240,12 +247,20 @@
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="engagehub.review-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.engagehub.api.ReviewServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceDiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EngageHub.server.service-discovery.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.engagehub.api.ServiceDiscoveryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Gradle.EngageHub:server [clean build]" />
+      <item itemvalue="Spring Boot.ServiceDiscoveryApplication" />
       <item itemvalue="Spring Boot.AppointmentServiceApplication" />
       <item itemvalue="Spring Boot.BusinessServiceApplication" />
       <item itemvalue="Spring Boot.CustomerServiceApplication" />
@@ -328,14 +343,7 @@
       <workItem from="1725878675476" duration="139000" />
       <workItem from="1725878822447" duration="370000" />
       <workItem from="1725879228253" duration="103000" />
-    </task>
-    <task id="LOCAL-00033" summary="authentication config">
-      <option name="closed" value="true" />
-      <created>1723908572721</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1723908572721</updated>
+      <workItem from="1725879342625" duration="1092000" />
     </task>
     <task id="LOCAL-00034" summary="authentication config">
       <option name="closed" value="true" />
@@ -721,7 +729,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725866762615</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="service discovery config">
+      <option name="closed" value="true" />
+      <created>1725879546854</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1725879546854</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
