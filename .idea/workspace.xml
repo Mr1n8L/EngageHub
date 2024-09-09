@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="service discovery config">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service-discovery/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/service-discovery/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/service-discovery/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service-discovery/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/service-discovery/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service-discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/service-discovery/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +247,7 @@
       </method>
     </configuration>
     <configuration name="ServiceDiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="EngageHub.server.service-discovery.main" />
+      <module name="engagehub.server.service-discovery.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.engagehub.api.ServiceDiscoveryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -348,15 +338,7 @@
       <workItem from="1725878675476" duration="139000" />
       <workItem from="1725878822447" duration="370000" />
       <workItem from="1725879228253" duration="103000" />
-      <workItem from="1725879342625" duration="5599000" />
-    </task>
-    <task id="LOCAL-00038" summary="microservices config">
-      <option name="closed" value="true" />
-      <created>1724041892347</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1724041892347</updated>
+      <workItem from="1725879342625" duration="6770000" />
     </task>
     <task id="LOCAL-00039" summary="microservices config">
       <option name="closed" value="true" />
@@ -742,7 +724,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725903667193</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="service discovery config">
+      <option name="closed" value="true" />
+      <created>1725906327886</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1725906327888</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
