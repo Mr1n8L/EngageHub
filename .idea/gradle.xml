@@ -10,6 +10,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/server" />
+            <option value="$PROJECT_DIR$/server/appointment-service" />
+            <option value="$PROJECT_DIR$/server/authentication-service" />
+            <option value="$PROJECT_DIR$/server/business-service" />
+            <option value="$PROJECT_DIR$/server/customer-service" />
+            <option value="$PROJECT_DIR$/server/payment-service" />
+            <option value="$PROJECT_DIR$/server/review-service" />
             <option value="$PROJECT_DIR$/server/service-discovery" />
           </set>
         </option>

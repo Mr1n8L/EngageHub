@@ -1,4 +1,15 @@
+// Set the root project name
 rootProject.name = 'engagehub'
-include 'server:service-discovery'
-findProject(':server:service-discovery')?.name = 'service-discovery'
 
+// Include the subprojects correctly
+include 'server'
+include 'server:appointment-service'
+include 'server:authentication-service'
+include 'server:customer-service'
+include 'server:payment-service'
+include 'server:review-service'
+include 'server:business-service'
+include 'server:service-discovery'
+
+// Optionally, you can set names for subprojects if they need specific names
+findProject(':server:service-discovery')?.name = 'service-discovery'
