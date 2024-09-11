@@ -6,10 +6,239 @@
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="service discovery config for microservices">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/authentication-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/business-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/customer-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/customer-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/review-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/review-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/CustomerServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$CUSTOMER.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$ADDCUSTOMER_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$DELETECUSTOMER_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$UPDATECUSTOMER_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY$CUSTOMERBYID_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY$SEARCHCUSTOMERS_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerByIdGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerByIdGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerByIdProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/SearchCustomersGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/SearchCustomersGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/SearchCustomersProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/types/Customer$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/codegen/types/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/dgs/CustomerDataFetcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/classes/java/main/com/engagehub/api/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/CustomerByIdDatafetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/CustomersDatafetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/SearchCustomersDatafetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/DgsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/AddCustomerProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomerByIdGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomerByIdProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomersGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomersProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/SearchCustomersGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/SearchCustomersProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/UpdateCustomerProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/types/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/libs/customer-service-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/libs/customer-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/resources/main/schema/schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/AuthenticationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/AuthenticationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/libs/server.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/libs/server.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/BusinessServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$BUSINESS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$ADDBUSINESS_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$DELETEBUSINESS_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$UPDATEBUSINESS_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY$BUSINESS_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/AddBusinessGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/AddBusinessGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/AddBusinessProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/BusinessGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/BusinessGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/BusinessProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/BusinessesGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/BusinessesGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/BusinessesProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/DeleteBusinessGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/DeleteBusinessGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateBusinessGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateBusinessGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateBusinessProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/types/Business$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/codegen/types/Business.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/dgs/BusinessDataFetcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/model/Business.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/repository/BusinessRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/classes/java/main/com/engagehub/api/service/BusinessService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/BusinessDatafetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/BusinessesDatafetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/DgsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/AddBusinessGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/AddBusinessProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/BusinessGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/BusinessProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/BusinessesGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/BusinessesProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/DeleteBusinessGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/UpdateBusinessGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/UpdateBusinessProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/types/Business.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/libs/business-service-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/libs/business-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/resources/main/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/resources/main/schema/schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/BusinessServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/BusinessServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/CustomerServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$CUSTOMER.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$ADDCUSTOMER_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$DELETECUSTOMER_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$UPDATECUSTOMER_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY$CUSTOMER_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/AddCustomerProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomerProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/CustomersProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/client/UpdateCustomerProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/types/Customer$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/codegen/types/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/dgs/CustomerDataFetcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/classes/java/main/com/engagehub/api/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/CustomerDatafetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/CustomersDatafetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/DgsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/AddCustomerGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/AddCustomerProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomerGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomerProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomersGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/CustomersProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/DeleteCustomerGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/UpdateCustomerGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/UpdateCustomerProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/types/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/libs/customer-service-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/libs/customer-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/resources/main/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/resources/main/schema/schema.graphqls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/customer-service/src/main/java/com/engagehub/api/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/ReviewServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$RESPONDTOREVIEW_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION$SUBMITREVIEW_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$MUTATION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY$REVIEWBYID_INPUT_ARGUMENT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$QUERY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants$REVIEW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/DgsConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/RespondToReviewGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/RespondToReviewGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/RespondToReviewProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/ReviewByIdGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/ReviewByIdGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/ReviewByIdProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/ReviewsGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/ReviewsGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/ReviewsProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/SubmitReviewGraphQLQuery$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/SubmitReviewGraphQLQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/client/SubmitReviewProjectionRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/types/Review$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/codegen/types/Review.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/dgs/ReviewDataFetcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/model/Review.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/repository/ReviewRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/classes/java/main/com/engagehub/api/service/ReviewService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/ReviewByIdDatafetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen-generated-examples/com/engagehub/api/codegen/datafetchers/ReviewsDatafetcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/DgsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/RespondToReviewGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/RespondToReviewProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/ReviewByIdGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/ReviewByIdProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/ReviewsGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/ReviewsProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/SubmitReviewGraphQLQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/client/SubmitReviewProjectionRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/generated/sources/dgs-codegen/com/engagehub/api/codegen/types/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/libs/review-service-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/libs/review-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/resources/main/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/resources/main/schema/schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/src/main/java/com/engagehub/api/ReviewServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/review-service/src/main/java/com/engagehub/api/ReviewServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/classes/java/main/com/engagehub/api/ServiceDiscoveryApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/classes/java/test/com/example/demo/DemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/libs/service-discovery-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/libs/service-discovery-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/reports/tests/test/classes/com.example.demo.DemoApplicationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/reports/tests/test/packages/com.example.demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/resources/main/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/test-results/test/TEST-com.example.demo.DemoApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/service-discovery/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +419,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppointmentServiceApplication">
+  <component name="RunManager" selected="Gradle.EngageHub:server [clean build]">
     <configuration name="EngageHub:server [clean build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -410,15 +639,8 @@
       <workItem from="1725893920733" duration="3402000" />
       <workItem from="1725983105176" duration="70000" />
       <workItem from="1726060262334" duration="24000" />
-      <workItem from="1726060311090" duration="3499000" />
-    </task>
-    <task id="LOCAL-00050" summary="sdk config">
-      <option name="closed" value="true" />
-      <created>1724345852601</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1724345852601</updated>
+      <workItem from="1726060311090" duration="4382000" />
+      <workItem from="1726067692388" duration="41000" />
     </task>
     <task id="LOCAL-00051" summary="sdk config">
       <option name="closed" value="true" />
@@ -804,7 +1026,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726064148214</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="service discovery config for microservices">
+      <option name="closed" value="true" />
+      <created>1726064641493</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1726064641494</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
