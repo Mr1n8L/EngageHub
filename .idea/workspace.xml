@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="service discovery config for microservices">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/customer-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/customer-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/review-service/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,23 +410,7 @@
       <workItem from="1725893920733" duration="3402000" />
       <workItem from="1725983105176" duration="70000" />
       <workItem from="1726060262334" duration="24000" />
-      <workItem from="1726060311090" duration="2828000" />
-    </task>
-    <task id="LOCAL-00048" summary="microservices config">
-      <option name="closed" value="true" />
-      <created>1724245470091</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1724245470091</updated>
-    </task>
-    <task id="LOCAL-00049" summary="sdk config">
-      <option name="closed" value="true" />
-      <created>1724265170719</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1724265170719</updated>
+      <workItem from="1726060311090" duration="3499000" />
     </task>
     <task id="LOCAL-00050" summary="sdk config">
       <option name="closed" value="true" />
@@ -800,7 +788,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726063921369</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="service discovery config for microservices">
+      <option name="closed" value="true" />
+      <created>1726063985022</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1726063985022</updated>
+    </task>
+    <task id="LOCAL-00098" summary="service discovery config for microservices">
+      <option name="closed" value="true" />
+      <created>1726064148214</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1726064148214</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
