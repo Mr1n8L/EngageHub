@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="service discovery config for microservices">
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -329,8 +329,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
@@ -413,14 +413,8 @@
       <workItem from="1726238629914" duration="53000" />
       <workItem from="1726238698236" duration="3325000" />
       <workItem from="1727014717874" duration="231000" />
-    </task>
-    <task id="LOCAL-00053" summary="config">
-      <option name="closed" value="true" />
-      <created>1724484973786</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1724484973787</updated>
+      <workItem from="1727019966790" duration="94000" />
+      <workItem from="1727020103922" duration="56000" />
     </task>
     <task id="LOCAL-00054" summary="config">
       <option name="closed" value="true" />
@@ -806,7 +800,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726238736172</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary=".">
+      <option name="closed" value="true" />
+      <created>1727020053185</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1727020053185</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -858,7 +860,8 @@
     <MESSAGE value="modules config" />
     <MESSAGE value="service discovery config" />
     <MESSAGE value="service discovery config for microservices" />
-    <option name="LAST_COMMIT_MESSAGE" value="service discovery config for microservices" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
