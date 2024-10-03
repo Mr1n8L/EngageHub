@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/appointment-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/AppointmentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/AppointmentServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/dgs/AppointmentDataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/dgs/AppointmentDataFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/appointment-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/authentication-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/AuthenticationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/AuthenticationServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/business-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/BusinessServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/BusinessServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment="removing Spring Cloud - Eureka Client config">
+      <change beforePath="$PROJECT_DIR$/server/review-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/review-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/src/main/java/com/engagehub/api/ReviewServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/review-service/src/main/java/com/engagehub/api/ReviewServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/review-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/review-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,31 +420,7 @@
       <workItem from="1727279421070" duration="115000" />
       <workItem from="1727355859426" duration="860000" />
       <workItem from="1727928872481" duration="283000" />
-      <workItem from="1727929170635" duration="1032000" />
-    </task>
-    <task id="LOCAL-00055" summary="config">
-      <option name="closed" value="true" />
-      <created>1724761806467</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1724761806467</updated>
-    </task>
-    <task id="LOCAL-00056" summary="config">
-      <option name="closed" value="true" />
-      <created>1724937150173</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1724937150176</updated>
-    </task>
-    <task id="LOCAL-00057" summary="config">
-      <option name="closed" value="true" />
-      <created>1724939586939</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1724939586939</updated>
+      <workItem from="1727929170635" duration="1378000" />
     </task>
     <task id="LOCAL-00058" summary="Review-service config">
       <option name="closed" value="true" />
@@ -824,7 +790,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727279490221</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="removing Spring Cloud - Eureka Client config">
+      <option name="closed" value="true" />
+      <created>1727930268327</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1727930268327</updated>
+    </task>
+    <task id="LOCAL-00105" summary="removing Spring Cloud - Eureka Client config">
+      <option name="closed" value="true" />
+      <created>1727930401082</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1727930401082</updated>
+    </task>
+    <task id="LOCAL-00106" summary="removing Spring Cloud - Eureka Client config">
+      <option name="closed" value="true" />
+      <created>1727930548644</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1727930548644</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -877,7 +867,8 @@
     <MESSAGE value="service discovery config" />
     <MESSAGE value="service discovery config for microservices" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="removing Spring Cloud - Eureka Client config" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing Spring Cloud - Eureka Client config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
