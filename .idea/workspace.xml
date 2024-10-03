@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5761cc40-751f-4356-90dd-e4249b3a1369" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/appointment-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/AppointmentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/AppointmentServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/dgs/AppointmentDataFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/src/main/java/com/engagehub/api/dgs/AppointmentDataFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/appointment-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/appointment-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/AuthenticationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/java/com/engagehub/api/AuthenticationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/authentication-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/authentication-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/BusinessServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/java/com/engagehub/api/BusinessServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/business-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/business-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,8 +341,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -415,14 +427,10 @@
       <workItem from="1727014717874" duration="231000" />
       <workItem from="1727019966790" duration="94000" />
       <workItem from="1727020103922" duration="56000" />
-    </task>
-    <task id="LOCAL-00054" summary="config">
-      <option name="closed" value="true" />
-      <created>1724761230444</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1724761230445</updated>
+      <workItem from="1727279421070" duration="115000" />
+      <workItem from="1727355859426" duration="860000" />
+      <workItem from="1727928872481" duration="283000" />
+      <workItem from="1727929170635" duration="1032000" />
     </task>
     <task id="LOCAL-00055" summary="config">
       <option name="closed" value="true" />
@@ -808,7 +816,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727020053185</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary=".">
+      <option name="closed" value="true" />
+      <created>1727279490220</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1727279490221</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

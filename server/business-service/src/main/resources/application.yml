@@ -25,9 +25,9 @@ graphql:
 server:
   port: 9195
 
-  eureka:
-    client:
-      service-url:
-        defaultZone: http://localhost:8761/eureka/  # Eureka server URL
-    instance:
-      prefer-ip-address: true  # Use the IP address for registration
+#  eureka:
+#    client:
+#      service-url:
+#        defaultZone: http://localhost:8761/eureka/  # Eureka server URL
+#    instance:
+#      prefer-ip-address: true  # Use the IP address for registration

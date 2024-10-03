@@ -1,7 +1,7 @@
 
 package com.engagehub.api.dgs;
 import com.engagehub.api.model.Appointment;
-import com.engagehub.api.repository.AppointmentRepository;
+//import com.engagehub.api.repository.AppointmentRepository;
 import com.engagehub.api.service.AppointmentService;
 import com.netflix.graphql.dgs.DgsComponent;
 import com.netflix.graphql.dgs.DgsMutation;
@@ -11,9 +11,7 @@ import com.netflix.graphql.dgs.InputArgument;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.util.Optional;
-
-//Unresolver service class
+//import java.util.Optional;
 
 @DgsComponent
 public class AppointmentDataFetcher {
