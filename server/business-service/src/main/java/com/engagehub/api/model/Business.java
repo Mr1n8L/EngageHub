@@ -1,4 +1,5 @@
 package com.engagehub.api.model;
+//package name 
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
